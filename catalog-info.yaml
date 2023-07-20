@@ -1,0 +1,20 @@
+# For more information about the available options please visit: http://go/backstage (VPN required)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: Unity-Technologies/UnityLiveCapture
+  name: UnityLiveCapture
+  description: "Unity Live Capture package and companion apps (Face Capture and Virtual Camera)."
+  labels:
+    costcenter: "5006"
+  tags:
+    - planned-public
+  links:
+    - url: https://unity.slack.com/messages/CJ86VBCET/
+      title: "#vprod-live-production"
+      icon: chat
+spec:
+  type: unity-package
+  lifecycle: production
+  owner: unity-technologies/cinepipe-maintainers
