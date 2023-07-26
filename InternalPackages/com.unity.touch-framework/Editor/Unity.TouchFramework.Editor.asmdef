@@ -1,0 +1,10 @@
+{
+    "name": "Unity.TouchFramework.Editor",
+    "references": [
+      "Unity.TouchFramework"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
