@@ -1,0 +1,16 @@
+{
+    "name": "Unity.LiveCapture.Tentacle",
+    "rootNamespace": "Unity.LiveCapture.Tentacle",
+    "references": [
+        "Unity.LiveCapture"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

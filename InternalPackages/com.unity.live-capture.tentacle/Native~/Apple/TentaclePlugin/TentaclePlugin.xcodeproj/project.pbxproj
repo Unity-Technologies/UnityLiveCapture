@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7746E50026B0A9C100F12EF2 /* Tentacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 777E749926A0B712008F788F /* Tentacle.m */; };
+		7746E50926B4A30400F12EF2 /* TentacleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746E50826B4A30400F12EF2 /* TentacleController.m */; };
+		7746E50A26B4A30400F12EF2 /* TentacleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746E50826B4A30400F12EF2 /* TentacleController.m */; };
+		777E749D26A0B712008F788F /* Tentacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 777E749926A0B712008F788F /* Tentacle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7746E4F426B0A99B00F12EF2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777E74A126A0B724008F788F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7746E4F626B0A99B00F12EF2 /* libTentaclePluginStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTentaclePluginStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7746E50826B4A30400F12EF2 /* TentacleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TentacleController.m; sourceTree = "<group>"; };
+		7746E50B26B4A32800F12EF2 /* TentacleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TentacleController.h; sourceTree = "<group>"; };
+		777E748726A0B5D1008F788F /* TentaclePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TentaclePlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		777E748A26A0B5D1008F788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777E749926A0B712008F788F /* Tentacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tentacle.m; sourceTree = "<group>"; };
+		777E749B26A0B712008F788F /* Tentacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tentacle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7746E4F326B0A99B00F12EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777E748426A0B5D1008F788F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777E747E26A0B5D1008F788F = {
+			isa = PBXGroup;
+			children = (
+				777E748926A0B5D1008F788F /* TentaclePlugin */,
+				777E748826A0B5D1008F788F /* Products */,
+				DC219F2526C1CD86006C36A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		777E748826A0B5D1008F788F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777E748726A0B5D1008F788F /* TentaclePlugin.bundle */,
+				7746E4F626B0A99B00F12EF2 /* libTentaclePluginStatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777E748926A0B5D1008F788F /* TentaclePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				777E749B26A0B712008F788F /* Tentacle.h */,
+				777E749926A0B712008F788F /* Tentacle.m */,
+				777E748A26A0B5D1008F788F /* Info.plist */,
+				7746E50B26B4A32800F12EF2 /* TentacleController.h */,
+				7746E50826B4A30400F12EF2 /* TentacleController.m */,
+			);
+			path = TentaclePlugin;
+			sourceTree = "<group>";
+		};
+		DC219F2526C1CD86006C36A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7746E4F526B0A99B00F12EF2 /* TentaclePluginStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7746E4FC26B0A99B00F12EF2 /* Build configuration list for PBXNativeTarget "TentaclePluginStatic" */;
+			buildPhases = (
+				7746E4F226B0A99B00F12EF2 /* Sources */,
+				7746E4F326B0A99B00F12EF2 /* Frameworks */,
+				7746E4F426B0A99B00F12EF2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TentaclePluginStatic;
+			productName = TentaclePluginiOS;
+			productReference = 7746E4F626B0A99B00F12EF2 /* libTentaclePluginStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		777E748626A0B5D1008F788F /* TentaclePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777E748D26A0B5D1008F788F /* Build configuration list for PBXNativeTarget "TentaclePlugin" */;
+			buildPhases = (
+				777E748326A0B5D1008F788F /* Sources */,
+				777E748426A0B5D1008F788F /* Frameworks */,
+				777E748526A0B5D1008F788F /* Resources */,
+				777E74A126A0B724008F788F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TentaclePlugin;
+			productName = TentaclePlugin;
+			productReference = 777E748726A0B5D1008F788F /* TentaclePlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777E747F26A0B5D1008F788F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7746E4F526B0A99B00F12EF2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					777E748626A0B5D1008F788F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 777E748226A0B5D1008F788F /* Build configuration list for PBXProject "TentaclePlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777E747E26A0B5D1008F788F;
+			productRefGroup = 777E748826A0B5D1008F788F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777E748626A0B5D1008F788F /* TentaclePlugin */,
+				7746E4F526B0A99B00F12EF2 /* TentaclePluginStatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777E748526A0B5D1008F788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7746E4F226B0A99B00F12EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7746E50026B0A9C100F12EF2 /* Tentacle.m in Sources */,
+				7746E50A26B4A30400F12EF2 /* TentacleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777E748326A0B5D1008F788F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777E749D26A0B712008F788F /* Tentacle.m in Sources */,
+				7746E50926B4A30400F12EF2 /* TentacleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7746E4FD26B0A99B00F12EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPN9UFA9B;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7746E4FE26B0A99B00F12EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPN9UFA9B;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777E748B26A0B5D1008F788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		777E748C26A0B5D1008F788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		777E748E26A0B5D1008F788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TentaclePlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@loader_path/../Frameworks/",
+					"@loader_path/../../../",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = (
+					"@loader_path/../Frameworks/",
+					"@loader_path/../../../",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unity.TentaclePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		777E748F26A0B5D1008F788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TentaclePlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@loader_path/../Frameworks/",
+					"@loader_path/../../../",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = (
+					"@loader_path/../Frameworks/",
+					"@loader_path/../../../",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unity.TentaclePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7746E4FC26B0A99B00F12EF2 /* Build configuration list for PBXNativeTarget "TentaclePluginStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7746E4FD26B0A99B00F12EF2 /* Debug */,
+				7746E4FE26B0A99B00F12EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777E748226A0B5D1008F788F /* Build configuration list for PBXProject "TentaclePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777E748B26A0B5D1008F788F /* Debug */,
+				777E748C26A0B5D1008F788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777E748D26A0B5D1008F788F /* Build configuration list for PBXNativeTarget "TentaclePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777E748E26A0B5D1008F788F /* Debug */,
+				777E748F26A0B5D1008F788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777E747F26A0B5D1008F788F /* Project object */;
+}

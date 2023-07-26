@@ -1,0 +1,6 @@
+framework module Tentacle {
+  umbrella header "Tentacle.h"
+
+  export *
+  module * { export * }
+}
