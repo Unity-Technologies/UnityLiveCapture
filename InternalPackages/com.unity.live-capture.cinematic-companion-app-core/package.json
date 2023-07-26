@@ -1,0 +1,20 @@
+{
+  "name": "com.unity.live-capture.cinematic-companion-app-core",
+  "displayName": "Cinematic Companion App Core",
+  "version": "0.1.0-preview",
+  "unity": "2020.2",
+  "description": "Core package for the Cinematic Companion App. Used for both the Virtual Camera and the Face Capture app.",
+  "keywords": [
+    "virtual production",
+    "virtual camera",
+    "face capture",
+    "vcam"
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro": "2.1.1",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.xr.arfoundation": "5.0.3",
+    "com.unity.xr.arkit": "5.0.3"
+  },
+  "category": "Unity"
+}
