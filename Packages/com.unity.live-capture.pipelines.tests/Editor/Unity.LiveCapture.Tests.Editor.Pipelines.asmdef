@@ -1,0 +1,46 @@
+{
+    "name": "Unity.LiveCapture.Tests.Editor.Pipelines",
+    "rootNamespace": "",
+    "references": [
+        "Unity.LiveCapture",
+        "Unity.LiveCapture.CompanionApp",
+        "Unity.LiveCapture.VirtualCamera",
+        "Unity.LiveCapture.VirtualCamera.Editor",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "NSubstitute.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "2.4.0-preview.6",
+            "define": "CINEMACHINE_2_4_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "14.0.0",
+            "define": "HDRP_14_0_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "14.0.0",
+            "define": "URP_14_0_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "14.0.0",
+            "define": "SRP_CORE_14_0_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

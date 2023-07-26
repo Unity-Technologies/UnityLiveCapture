@@ -1,0 +1,15 @@
+{
+  "name": "com.unity.live-capture.pipelines.tests",
+  "displayName": "Live Capture Pipelines Tests",
+  "version": "4.0.0",
+  "unity": "2021.3",
+  "description": "Live Capture test package.",
+  "keywords": [
+    "test", "render pipeline", "graphics"
+  ],
+  "category": "Live Capture",
+  "dependencies": {
+    "com.unity.live-capture": "4.0.0"
+  },
+  "type": "tests"
+}
