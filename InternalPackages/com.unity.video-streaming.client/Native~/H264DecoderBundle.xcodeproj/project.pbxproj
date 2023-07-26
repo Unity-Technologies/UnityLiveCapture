@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551CF728237F36EC006629A6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551CF727237F36EC006629A6 /* Metal.framework */; };
+		96C9ACFA230DA4C30059A6AF /* H264Decoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96C9ACF9230DA4C30059A6AF /* H264Decoder.mm */; };
+		96C9ACFD230DA5C20059A6AF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9ACFC230DA5C20059A6AF /* CoreVideo.framework */; };
+		96C9ACFF230DA5CD0059A6AF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9ACFE230DA5CD0059A6AF /* CoreMedia.framework */; };
+		96C9AD01230DA5D70059A6AF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9AD00230DA5D70059A6AF /* CoreFoundation.framework */; };
+		96C9AD03230DA5F10059A6AF /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9AD02230DA5F00059A6AF /* VideoToolbox.framework */; };
+		96E1D90023564EB600E6E0B9 /* H264Decoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96C9ACF9230DA4C30059A6AF /* H264Decoder.mm */; };
+		96E1D90123564F0E00E6E0B9 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9AD02230DA5F00059A6AF /* VideoToolbox.framework */; };
+		96E1D90223564F1A00E6E0B9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9AD00230DA5D70059A6AF /* CoreFoundation.framework */; };
+		96E1D90323564F2300E6E0B9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9ACFE230DA5CD0059A6AF /* CoreMedia.framework */; };
+		96E1D90423564F2A00E6E0B9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9ACFC230DA5C20059A6AF /* CoreVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		551CF727237F36EC006629A6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		96C9ACF0230DA4860059A6AF /* H264DecoderBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H264DecoderBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C9ACF3230DA4860059A6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C9ACF9230DA4C30059A6AF /* H264Decoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = H264Decoder.mm; sourceTree = "<group>"; };
+		96C9ACFC230DA5C20059A6AF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		96C9ACFE230DA5CD0059A6AF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		96C9AD00230DA5D70059A6AF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		96C9AD02230DA5F00059A6AF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		96E1D8F623564DA800E6E0B9 /* libH264DecoderIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libH264DecoderIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C9ACED230DA4860059A6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C9AD03230DA5F10059A6AF /* VideoToolbox.framework in Frameworks */,
+				96C9AD01230DA5D70059A6AF /* CoreFoundation.framework in Frameworks */,
+				551CF728237F36EC006629A6 /* Metal.framework in Frameworks */,
+				96C9ACFF230DA5CD0059A6AF /* CoreMedia.framework in Frameworks */,
+				96C9ACFD230DA5C20059A6AF /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E1D8F323564DA800E6E0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E1D90423564F2A00E6E0B9 /* CoreVideo.framework in Frameworks */,
+				96E1D90323564F2300E6E0B9 /* CoreMedia.framework in Frameworks */,
+				96E1D90223564F1A00E6E0B9 /* CoreFoundation.framework in Frameworks */,
+				96E1D90123564F0E00E6E0B9 /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C9ACE7230DA4860059A6AF = {
+			isa = PBXGroup;
+			children = (
+				96C9ACF2230DA4860059A6AF /* H264DecoderBundle */,
+				96C9ACF1230DA4860059A6AF /* Products */,
+				96C9ACFB230DA5C20059A6AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96C9ACF1230DA4860059A6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C9ACF0230DA4860059A6AF /* H264DecoderBundle.bundle */,
+				96E1D8F623564DA800E6E0B9 /* libH264DecoderIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C9ACF2230DA4860059A6AF /* H264DecoderBundle */ = {
+			isa = PBXGroup;
+			children = (
+				96C9ACF9230DA4C30059A6AF /* H264Decoder.mm */,
+				96C9ACF3230DA4860059A6AF /* Info.plist */,
+			);
+			path = H264DecoderBundle;
+			sourceTree = "<group>";
+		};
+		96C9ACFB230DA5C20059A6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551CF727237F36EC006629A6 /* Metal.framework */,
+				96C9AD02230DA5F00059A6AF /* VideoToolbox.framework */,
+				96C9AD00230DA5D70059A6AF /* CoreFoundation.framework */,
+				96C9ACFE230DA5CD0059A6AF /* CoreMedia.framework */,
+				96C9ACFC230DA5C20059A6AF /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C9ACEF230DA4860059A6AF /* H264DecoderBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C9ACF6230DA4860059A6AF /* Build configuration list for PBXNativeTarget "H264DecoderBundle" */;
+			buildPhases = (
+				96C9ACEC230DA4860059A6AF /* Sources */,
+				96C9ACED230DA4860059A6AF /* Frameworks */,
+				96C9ACEE230DA4860059A6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = H264DecoderBundle;
+			productName = H264DecoderBundle;
+			productReference = 96C9ACF0230DA4860059A6AF /* H264DecoderBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		96E1D8F523564DA800E6E0B9 /* H264DecoderIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E1D8FC23564DA800E6E0B9 /* Build configuration list for PBXNativeTarget "H264DecoderIOS" */;
+			buildPhases = (
+				96E1D8F223564DA800E6E0B9 /* Sources */,
+				96E1D8F323564DA800E6E0B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = H264DecoderIOS;
+			productName = H264DecoderIOS;
+			productReference = 96E1D8F623564DA800E6E0B9 /* libH264DecoderIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C9ACE8230DA4860059A6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Dominique Leroux";
+				TargetAttributes = {
+					96C9ACEF230DA4860059A6AF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					96E1D8F523564DA800E6E0B9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 96C9ACEB230DA4860059A6AF /* Build configuration list for PBXProject "H264DecoderBundle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96C9ACE7230DA4860059A6AF;
+			productRefGroup = 96C9ACF1230DA4860059A6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C9ACEF230DA4860059A6AF /* H264DecoderBundle */,
+				96E1D8F523564DA800E6E0B9 /* H264DecoderIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C9ACEE230DA4860059A6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C9ACEC230DA4860059A6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C9ACFA230DA4C30059A6AF /* H264Decoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E1D8F223564DA800E6E0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E1D90023564EB600E6E0B9 /* H264Decoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96C9ACF4230DA4860059A6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96C9ACF5230DA4860059A6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96C9ACF7230DA4860059A6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = H264DecoderBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unity.H264DecoderBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		96C9ACF8230DA4860059A6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = H264DecoderBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unity.H264DecoderBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		96E1D8FD23564DA800E6E0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6SFPV59E3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E1D8FE23564DA800E6E0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6SFPV59E3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C9ACEB230DA4860059A6AF /* Build configuration list for PBXProject "H264DecoderBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C9ACF4230DA4860059A6AF /* Debug */,
+				96C9ACF5230DA4860059A6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C9ACF6230DA4860059A6AF /* Build configuration list for PBXNativeTarget "H264DecoderBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C9ACF7230DA4860059A6AF /* Debug */,
+				96C9ACF8230DA4860059A6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E1D8FC23564DA800E6E0B9 /* Build configuration list for PBXNativeTarget "H264DecoderIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E1D8FD23564DA800E6E0B9 /* Debug */,
+				96E1D8FE23564DA800E6E0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C9ACE8230DA4860059A6AF /* Project object */;
+}
