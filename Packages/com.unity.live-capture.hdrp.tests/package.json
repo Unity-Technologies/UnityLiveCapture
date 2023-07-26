@@ -1,0 +1,15 @@
+{
+  "name": "com.unity.live-capture.hdrp.tests",
+  "displayName": "Live Capture hdrp Tests",
+  "version": "4.0.0",
+  "unity": "2021.3",
+  "description": "HDRP package tests on 2021.3 and up for live capture",
+  "keywords": [
+    "test", "render pipeline", "graphics", "HDRP"
+  ],
+  "category": "Live Capture",
+  "dependencies": {
+    "com.unity.live-capture": "4.0.0"
+  },
+  "type": "tests"
+}
