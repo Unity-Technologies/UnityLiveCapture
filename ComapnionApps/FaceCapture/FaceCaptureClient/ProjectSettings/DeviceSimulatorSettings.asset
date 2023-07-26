@@ -1,0 +1,6 @@
+{
+    "SystemInfoDefaultAssembly": true,
+    "SystemInfoAssemblies": [
+        "Unity.FaceCaptureClient.Runtime"
+    ]
+}
