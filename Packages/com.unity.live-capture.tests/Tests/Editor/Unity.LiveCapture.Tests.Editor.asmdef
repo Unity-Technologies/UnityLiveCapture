@@ -1,0 +1,44 @@
+{
+    "name": "Unity.LiveCapture.Tests.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.LiveCapture.Tests",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.Timeline",
+        "Unity.Timeline.Editor",
+        "Unity.LiveCapture",
+        "Unity.LiveCapture.Networking",
+        "Unity.LiveCapture.CompanionApp",
+        "Unity.LiveCapture.ARKitFaceCapture",
+        "Unity.LiveCapture.VirtualCamera",
+        "Unity.LiveCapture.VideoStreaming.Server",
+        "Unity.LiveCapture.Editor",
+        "Unity.LiveCapture.CompanionApp.Editor",
+        "Unity.LiveCapture.ARKitFaceCapture.Editor",
+        "Unity.LiveCapture.VirtualCamera.Editor",
+        "Unity.LiveCapture.GPUFrameSync",
+        "Unity.LiveCapture.Ltc",
+        "Unity.LiveCapture.Ntp",
+        "Unity.LiveCapture.Mocap",
+        "Unity.LiveCapture.TransformCapture",
+        "Unity.LiveCapture.TransformCapture.Editor",
+        "Unity.LiveCapture.Cameras"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "NSubstitute.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

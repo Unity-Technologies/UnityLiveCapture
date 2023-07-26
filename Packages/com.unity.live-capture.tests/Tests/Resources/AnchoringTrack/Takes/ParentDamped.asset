@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7457331472305444572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: '[001] New Shot [001]'
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 633263272173534951}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 30
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af66da441399ac14386d6435579ad7f6, type: 3}
+  m_Name: ParentDamped
+  m_EditorClassIdentifier: 
+  m_SceneNumber: 1
+  m_ShotName: New Shot
+  m_TakeNumber: 1
+  m_CreationTime: -8585449881632543235
+  m_Description: 
+  m_Rating: 0
+  m_FrameRate:
+    m_Numerator: 30
+    m_Denominator: 1
+    m_IsDropFrame: 0
+  m_Duration: 4.999999999998
+  m_StartTimecode:
+    m_IsDropFrame: 0
+    m_Hours: 15
+    m_Minutes: 51
+    m_Seconds: 59
+    m_Frames: 17
+    m_Subframe:
+      m_Subframe: 22918
+      m_Resolution: 51200
+  m_Screenshot: {fileID: 2800000, guid: 8cc41013e817d67458d9fec26d1df8b5, type: 3}
+  m_Timeline: {fileID: -7457331472305444572}
+  m_Bindings:
+  - id: 0
+  m_Entries:
+  - m_Track: {fileID: 633263272173534951}
+    m_Binding:
+      id: 0
+  m_MetadataEntries: []
+  references:
+    version: 1
+    00000000:
+      type: {class: TransformTakeBinding, ns: Unity.LiveCapture, asm: Unity.LiveCapture}
+      data:
+        m_ExposedReference:
+          exposedName: Cube
+          defaultValue: {fileID: 0}
+--- !u!114 &633263272173534951
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce4943ce5e8844c1a558265e10a2652, type: 3}
+  m_Name: Virtual Camera Anchor
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: -7457331472305444572}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 5200545080233300836}
+    m_Duration: 3
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 633263272173534951}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 1
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: Infinity
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Anchor
+  m_Markers:
+    m_Objects: []
+--- !u!114 &5200545080233300836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45374d4500d57405bbfe5aea3a88b07e, type: 3}
+  m_Name: AnchorPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Target:
+    m_ExposedReference:
+      exposedName: Cube
+      defaultValue: {fileID: 0}
+  m_Settings:
+    PositionOffset: {x: 0, y: 0, z: 0}
+    PositionLock: 7
+    RotationLock: 7
+    Damping:
+      Enabled: 1
+      Body: {x: 1, y: 1, z: 1}
+      Aim: 1
