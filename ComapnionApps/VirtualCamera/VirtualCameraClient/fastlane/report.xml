@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: update_fastlane" time="1.730668">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001242">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: get_version_number" time="0.123623">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: match" time="2.557349">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: update_code_signing_settings" time="0.103114">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: gym" time="700.235784">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: Switch to ios install_local lane" time="0.001787">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: install_on_device" time="4.962041">
+        
+          <failure message="/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:253:in `block in execute_action'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:83:in `block (2 levels) in parsing_binding'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:204:in `try_switch_to_lane'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:146:in `trigger_action_by_name'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:73:in `block (2 levels) in parsing_binding'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/commands_generator.rb:352:in `run'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/jas/.gems/gems/fastlane-2.149.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'ios-deploy --bundle builds/com.unity.virtualcamera.ipa' was 253 instead of 0.&#10;[....] Waiting for iOS device to be connected&#10;[....] Using 02353e15bd33ebbdbb9b216a6b82e6c371c1ad80 (J171AP, iPad 7, iphoneos, arm64) a.k.a. 'Jas’s iPad'.&#10;------ Install phase ------&#10;[  0%] Found 02353e15bd33ebbdbb9b216a6b82e6c371c1ad80 (J171AP, iPad 7, iphoneos, arm64) a.k.a. 'Jas’s iPad' connected through USB, beginning install&#10;[  5%] Copying /Users/jas/Unity/Projects/build_tools_scaffold/build_scripts/builds/com.unity.virtualcamera.ipa/META-INF/ to device&#10;[ 10%] Copying /Users/jas/Unity/Projects/build_tools_scaffold/build_scripts/builds/com.unity.virtualcamera.ipa/META-INF/com.apple.ZipMetadata.plist to device&#10;[ 25%] Copying /Users/jas/Unity/Projects/build_tools_scaffold/build_scripts/builds/com.unity.virtualcamera.ipa/virtualcamera.app.dSYM.zip to device&#10;[ 52%] CreatingStagingDirectory&#10;[ 57%] ExtractingPackage&#10;[ 60%] InspectingPackage&#10;2020-06-05 14:01:06.984 ios-deploy[84935:828186] [ !! ] Error 0xe8000051: Could not inspect the application package. AMDeviceSecureInstallApplication(0, device, url, options, install_callback, 0)&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

@@ -1,0 +1,68 @@
+<help>
+    <tooltips>
+        <tooltip id="Reset">
+            <title>Reset</title>
+            <content>
+                <![CDATA[Resets the position of the camera rig to its initial pose or origin.<br><br>Use the Reset Lens button to reset the lens settings to their default values.]]></content>
+        </tooltip>
+        <tooltip id="Damping">
+            <title>Damping</title>
+            <content>
+                <![CDATA[Toggle motion damping. Damping determines the positional and rotational stabilization that are applied to the camera motion.]]></content>
+        </tooltip>
+        <tooltip id="MotionScale">
+            <title>Motion Scale</title>
+            <content>
+                <![CDATA[Changing the motion scale multiplies the tracked motion along a given local axis.<br><br>This can be very useful if there is limited physical space, or to simulate the motion of a crane or a drone.]]></content>
+        </tooltip>
+        <tooltip id="AxisLockRotation">
+            <title>Rotation Lock</title>
+            <content>
+                <![CDATA[Use the switches to toggle on and off the rotation lock in a specific axis.<br><br>Enabling the auto horizon sets the roll to zero when the roll is locked.]]></content>
+        </tooltip>
+        <tooltip id="Joysticks">
+            <title>Joystick Setup</title>
+            <content>
+                <![CDATA[Pedestal sets the height joystick (the right joystick) moves up in global or local space.<br><br>Multiplier sets the sensitivity of the joystick in each axis.]]></content>
+        </tooltip>
+        <tooltip id="Gamepad">
+            <title>Gamepad Setup</title>
+            <content>
+                <![CDATA[Pedestal sets pedestal motion to global or local space.<br><br>Motion space sets dolly and truck motion to global or local space.]]></content>
+        </tooltip>
+        <tooltip id="FocalLength">
+            <title>Focal Length</title>
+            <content>
+                <![CDATA[Rotate the dial to change the focal length of the camera. This sets the distance, in millimeters, between the camera sensor and the camera lens. Lower values result in a wider Field of View, and vice versa.]]></content>
+        </tooltip>
+        <tooltip id="FocusAperture">
+            <title>Focus Distance and Aperture</title>
+            <content>
+                <![CDATA[Use the outer dial to set the focus distance from the camera sensor in meters.<br>*Changing the focus distance forces the Focus Mode to Manual.<br><br>Use the inner dial to set the aperture or F-Stop.]]></content>
+        </tooltip>
+        <tooltip id="FocusMode">
+            <title>Focus Mode</title>
+            <content>
+                <![CDATA[Select the focus mode between DoF Clear, Manual, or Auto.<br><br>Clear: disables Depth of Field.<br><br>Manual: tapping the screen sets the focus to the 3D point under the tap location. Focus distance does not update as the object moves.<br><br>Reticle AF: tapping the screen places a reticle that constantly sets the focus to the 3D point under the reticle.<br><br>Tracking AF: tapping the screen selects the scene object under the reticle. Focus distance updates as the distance between the camera and that point changes.]]></content>
+        </tooltip>
+        <tooltip id="PlayerScrubber">
+            <title>Timeline</title>
+            <content><![CDATA[Plays the assigned Timeline and animations in the editor.]]></content>
+        </tooltip>
+        <tooltip id="DeviceMode">
+            <title>Playback</title>
+            <content>
+                <![CDATA[Toggles playback mode. When in playback mode, use the timeline to play the previous take.]]></content>
+        </tooltip>
+        <tooltip id="Settings">
+            <title>Settings</title>
+            <content>
+                <![CDATA[Opens the settings window to configure view options, joystick settings, recording options, etc.]]></content>
+        </tooltip>
+        <tooltip id="TakeIteration">
+            <title>Take Configuration</title>
+            <content>
+                <![CDATA[Select a take to use as the iteration base and lock camera channels for the next take.]]></content>
+        </tooltip>
+    </tooltips>
+</help>

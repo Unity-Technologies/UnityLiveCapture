@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11aec9e73f42f842a403f24db7666ad, type: 3}
+  m_Name: ActionResolver
+  m_EditorClassIdentifier: Unity.VirtualCameraClient.Runtime:Unity.CompanionApps.VirtualCamera:ActionToControl
+  m_Bindings:
+  - m_InputAction: {fileID: 2622698815807914848, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 25
+  - m_InputAction: {fileID: -6453287237481527976, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 19
+  - m_InputAction: {fileID: -3678628850628121816, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 20
+  - m_InputAction: {fileID: -2942238482128743008, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 17
+  - m_InputAction: {fileID: 1326896432162605657, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 18
+  - m_InputAction: {fileID: 4055395759477107980, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 10
+  - m_InputAction: {fileID: 4023833244511769870, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 11
+  - m_InputAction: {fileID: 6284736293521962294, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 7
+  - m_InputAction: {fileID: -3373188123998100091, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 9
+  - m_InputAction: {fileID: -2642701349395709786, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 8
+  - m_InputAction: {fileID: 3904806518421525366, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 6
+  - m_InputAction: {fileID: 2833806107349004315, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 1
+  - m_InputAction: {fileID: 6236537685292385666, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 5
+  - m_InputAction: {fileID: 6344753673531138071, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 0
+  - m_InputAction: {fileID: -3803318257202489881, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 3
+  - m_InputAction: {fileID: -8220531606452176601, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 2
+  - m_InputAction: {fileID: 7849415078143855700, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 4
+  - m_InputAction: {fileID: 3945034281637890716, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 21
+  - m_InputAction: {fileID: 4050150334831549132, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 22
+  - m_InputAction: {fileID: -7543121963214464194, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 13
+  - m_InputAction: {fileID: 5236380213592490312, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 12
+  - m_InputAction: {fileID: 3517533588081504130, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 26
+  - m_InputAction: {fileID: 4005356280985608204, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 28
+  - m_InputAction: {fileID: -6454662976754796419, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 30
+  - m_InputAction: {fileID: 836984788353938968, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 27
+  - m_InputAction: {fileID: 2704709167450730651, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 29
+  - m_InputAction: {fileID: 3641997361604516712, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 31
+  - m_InputAction: {fileID: -8149952399470879225, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 24
+  - m_InputAction: {fileID: -2036619910325842472, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 23
+  - m_InputAction: {fileID: -8957919841454129075, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 14
+  - m_InputAction: {fileID: 640605053929566365, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 15
+  - m_InputAction: {fileID: 5102129010123123700, guid: dfc4ad77b2731614798a27e23bf8b6bd,
+      type: 3}
+    m_ActionID: 16

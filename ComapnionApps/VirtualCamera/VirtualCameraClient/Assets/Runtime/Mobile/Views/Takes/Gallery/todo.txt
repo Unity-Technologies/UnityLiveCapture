@@ -1,0 +1,85 @@
+! MAKE SURE TO CREATE JIRA TICKETS FOR SUBSEQUENT TASKS BEFORE DELETING THIS FILE !
+
+- (done) base-gallery-controller -> cache take collection locally for cleanup of receivers
+- Test: delete Takes on server, reimport, expect client to reload the take library
+- interfaces on views when useful
+- (done) roundedrect should be affected by canvasgroup alpha
+- activation seems to affect thumbnail star toggle view update
+- use ITakeIterationView for injection etc
+- (done) sort take related files (view, ctrl, ....)
+- separate folder for shared files? With subfolders?
+- same take-lib and live-mode buttons on both platforms
+- optional: shared install code, kickstart refactoring of the installers and tackle their growth
+- Container.BindInterfacesAndSelfTo<TakeLibraryModel>().AsSingle(); -> just interface
+- optional: scrollview behavior improvements: jumps, margins when no scroll is needed
+- should ShowTakesViewSignal be handled by the controller? use mobile specific commands
+- cleaner way to handle fullscreen variants? (better than optional button?)
+- (done) sometimes views subscribe in awake others in onEnable, be consistent (at least in takes stuff)
+- (done) rename TakeSelectionController
+- (done) initial hide of gallery doesnt belong in controller
+- (done) take selection view requires variants due to differing menu...
+- (done) take-iteration toggle state on mobile
+- (done) rnd-rect buttons tint mess up
+- (done) dont bundle take views in one prefab on mobile
+- (done) move take views out of main view on tablet
+- tablet, what if we exit take iteration and selection is open?
+
+TAKE ITERATION
+==============
+- Take name form maps to slate properties -> do later
+- use NextTakeNameReceived to update name form
+- (done) clear-iteration-base
+- (done) set-iteration-base (vcam-device will send slate descriptor)
+
+WIP
+===
+- (done) add DateTime to take and its descriptor (creation time)
+- (done) collect vcam-metadata based on slate directory
+- (done) add vcam-meta descriptor and array, map to take through guid
+- (done) send vcam-meta array to client
+- (done) fix tests broken by take creation time
+- check new take fields ok in inspectors (propertydrawers?)
+
+Primary
+=======
+- (done) add take metadata
+- (done) Iphone take-gallery-view variant
+- (done) plug shot name in HUD
+- deviceModeToggled/deviceModeClicked inconsistency in main vcam views, ShowTakesView should be promoted as well to the shared main view
+- Plug take rating (star badge?)
+- vcam-metadata per take policy (rn we default to last available entry).
+
+Secondary
+=========
+- (done) remove initial testing code
+- (done) remove initial controller, rename actual one, move to proper folder
+- (done) add sensor size preset name to metadata
+- check events naming
+- use fat arrow syntax for one liner methods
+- prefab for top-right done-button
+
+Done
+====
+- (done - "starred" terminology) "focus" and "selected" in the gallery view is confusing
+- (done - stick to int for the time being) SlateSelectedTakeReceived uses an int why not guid? The index corresponds to the array of TakeDescriptor received?
+- (done - yes) Whenever we edit or delete a take, we'll receive the updated list of takes (OnSlateTakesReceived)?
+- (done) send device mode to server
+- (done) main view receives device mode
+- (done) cache mainViewOptions based on DeviceMode
+- (done) add take view to layout
+- (done) exit takes view on exit playback
+- (done) at most one thumbnail with options opened, close on bg click
+- (done) close thumbnail menu when another is selected
+- (done - yes for now) phone -> do we keep while-recording lens-settings btn
+- (done - keep it deactivated for now) phone -> what do we do with the snapshot button?
+
+Subsequent Tasks (Separate PRs)
+===============================
+- rename take scriptableobject (consistent with take data)
+- don't rely on editor preview for take thumbnail
+- delete screenshot/anim alongside the take SO on take deletion
+- reuse RoundedRectButton whenever possible
+- make a generic component to slide a rectransform according to the touchkeyboard area
+- general, often our Button could have [None] transition
+- split installer into feature-specific function most of which will be shared (also easier to parse)
+

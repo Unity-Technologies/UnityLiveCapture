@@ -1,0 +1,278 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "d640f182-c06e-481a-8438-2237c7b5edcf",
+            "actions": [
+                {
+                    "name": "buttonEast",
+                    "type": "Value",
+                    "id": "fedf1007-c7f9-4eb0-bb58-c421e267bd84",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "buttonNorth",
+                    "type": "Value",
+                    "id": "6a661945-3a3d-421e-867d-42294fa8bce2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "buttonSouth",
+                    "type": "Value",
+                    "id": "babd0c24-fdeb-4a93-bea7-7a796882e63a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "buttonWest",
+                    "type": "Value",
+                    "id": "c2d61601-f62b-424f-99c1-cfb4571de830",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "leftShoulder",
+                    "type": "Value",
+                    "id": "77700785-2e07-40c4-834c-8be0083d5199",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "rightShoulder",
+                    "type": "Value",
+                    "id": "5d0d6a18-4d06-4815-9371-baf6a20d7708",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier Custom",
+                    "id": "b2505e7c-3782-462c-8d95-a4f2c1310d22",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonNorth",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "1914c6ce-146a-4e5d-86e1-1a9de5926ed6",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonNorth",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "51716a47-8d46-4f19-927f-ef5c78eeddc2",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonNorth",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "973bd7e5-0293-4978-8386-168e9aaabfde",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonWest",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "600069a4-48ce-41be-b280-46dffac1f6b7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonWest",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "2502178e-17bb-4555-bef8-3ce90901f9c8",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonWest",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "c110273a-7cd9-4bfb-815e-4a98ae022f61",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonSouth",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9b3d26f6-0afe-4e97-98a6-bb0aedd5d89e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonSouth",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "6073d9d7-8561-468c-894a-8e738c388b5d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonSouth",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "7990f775-e346-48fa-adc0-2a1eafe0f426",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonEast",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "6ecc9142-c048-407e-ba6a-333176a93cdf",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonEast",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "6c5f7738-2e5b-4266-ade8-4d6616b170de",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "buttonEast",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "5db553b4-12e0-4354-a24f-75f97185a7c2",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftShoulder",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "b17544c7-e302-4836-8232-a2c2ee8e8b08",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftShoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "ca0c7ede-768c-4e5d-9b31-cb90dbb3ebc8",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftShoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "f0d1a77e-d346-4b85-baa6-b2a29e03d2f6",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rightShoulder",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "787ccd65-d8d9-4b5f-9cd4-0b74d1c11756",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rightShoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "96c22072-c3d3-4b04-af99-fbd79091de0f",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rightShoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
