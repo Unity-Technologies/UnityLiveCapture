@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:TwoPaneSplitView name="split-view">
+        <ui:ScrollView name="info-section" horizontal-scroller-visibility="Hidden" class="info-pane" />
+        <ui:VisualElement class="settings-pane">
+            <uie:Toolbar class="configuration-toolbar">
+                <ui:VisualElement class="configuration-icon" />
+                <ui:Label text="Configuration" class="configuration-title" />
+            </uie:Toolbar>
+            <ui:ScrollView name="settings-section" horizontal-scroller-visibility="Hidden" />
+        </ui:VisualElement>
+    </ui:TwoPaneSplitView>
+</ui:UXML>

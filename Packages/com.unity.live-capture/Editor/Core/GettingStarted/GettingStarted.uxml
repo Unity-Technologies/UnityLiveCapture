@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:VisualElement name="root" style="flex-shrink: 0;">
+            <ui:VisualElement name="header" class="header-container wizard-padding" style="padding-top: 10px; padding-bottom: 10px; justify-content: center;">
+                <ui:Image class="header-icon" />
+                <ui:Label text="Live Capture Package" class="header-title" />
+            </ui:VisualElement>
+            <ui:VisualElement name="getting-started" class="wizard-padding" style="padding-left: 15px; padding-right: 15px; padding-bottom: 15px;">
+                <ui:Label text="Getting Started" class="section-title paragraph-bottom" />
+                <ui:Label text="Live capture offers a variety of ways for you to get started. choose the one you prefer." class="section-text" />
+                <ui:Label text="Steps:" class="paragraph-top section-title paragraph-bottom" style="padding-top: 12px;" />
+                <ui:Label text="1. Setup Take recorder, capture devices and actors in your scene:" class="section-text" />
+                <ui:Button text="a. Virtual Camera" name="virtual-camera" class="button inline-hyperlink align-newline" />
+                <ui:Button text="b. Face Capture" name="face-capture" class="button inline-hyperlink align-newline" />
+                <ui:Label text="2. Open connection window&#10;3. Start connection&#10;4. If you are using Virtual Camera or Face Capture:" class="section-text" />
+                <ui:Button text="Download iOS apps" name="download" class="button" />
+                <ui:GroupBox style="flex-direction: row; min-height: 14px; min-width: auto; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; flex-wrap: wrap;">
+                    <ui:Label text="5. Connect the device." class="section-text align-inline" />
+                    <ui:Button text="Having connection issues?" name="connection-issues" class="button inline-hyperlink align-inline" style="max-width: 150px; height: 14px;" />
+                </ui:GroupBox>
+            </ui:VisualElement>
+            <ui:VisualElement name="divider" class="section-divider" />
+            <ui:VisualElement name="sample-projects" class="wizard-padding">
+                <ui:Label text="Sample Projects" class="section-title paragraph-bottom" />
+                <ui:Label text="The sample projects provide default setup for the face capture &amp; virtual camera apps." class="section-text" style="padding-bottom: 8px;" />
+                <ui:Button text="Open Face Capture Sample" name="open-face-capture-sample" class="button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="divider" class="section-divider" />
+            <ui:VisualElement name="other-resources" class="wizard-padding">
+                <ui:Label text="Other Resources" class="section-title paragraph-bottom" />
+                <ui:Button text="• Documentation" name="documentation" class="button inline-hyperlink align-newline" style="height: 14px;" />
+                <ui:Button text="• Forum Help" name="forum-help" class="button inline-hyperlink align-newline" />
+                <ui:Button text="• cinematics-beta@unity3d.com" name="cinematics-beta" class="button inline-hyperlink align-newline" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

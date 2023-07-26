@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 801c190e0ca14a746aaece5744511566
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ToolbarUxml: {fileID: 9197481963319205126, guid: 5c6ca7fd1ce40cb4c9ea3937dde7f896,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

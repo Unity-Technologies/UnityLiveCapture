@@ -1,0 +1,154 @@
+.indent-content {
+	margin-left: 20px;
+}
+
+.space-content {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.split-container {
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+.info-pane {
+	background-color: var(--unity-colors-inspector_titlebar-border_accent);
+}
+
+.settings-pane {
+	background-color: var(--unity-colors-default-background);
+}
+
+.add-menu {
+	border-width: 0px;
+}
+
+.add-menu > .unity-text-element {
+    padding-top: 0;
+    margin-top: -4px;
+    padding-left: 0;
+    font-size: 26px;
+}
+
+.unity-two-pane-split-view__dragline-anchor {
+	background-color: var(--unity-colors-toolbar-border);
+}
+
+.large-button {
+	height: 24px;
+}
+
+.configuration-toolbar {
+	align-items: center;
+}
+
+.configuration-title {
+	-unity-font-style: bold;
+	-unity-text-align: middle-left;
+	padding-left: 8px;
+}
+
+.connection-imgui-container {
+	min-width: 200px;
+}
+
+.connection-toolbar {
+	align-items: center;
+	padding-left: 8px;
+}
+
+.connection-toolbar:hover {
+	background-color: var(--unity-colors-toolbar_button-background-hover);
+}
+
+.connection-toolbar-selected, .connection-toolbar-selected:hover {
+	background-color: var(--unity-colors-highlight-background);
+}
+
+.connection-indicator {
+	flex-shrink: 0;
+
+	width: 8px;
+	height: 8px;
+	
+	margin-right: 4px;
+	
+	border-radius: 2px;
+	background-color: #EE764D;
+}
+
+.connection-indicator-running {
+	background-color: #C3FB73;
+}
+
+.connection-title {
+	overflow: hidden;
+
+	flex-grow: 1;
+	flex-shrink: 1;
+	
+	-unity-font-style: bold;
+}
+
+.connection-toggle {
+	flex-grow: 0;
+	flex-shrink: 0;
+	align-content:center;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(SwitchToggle.png);
+	-unity-background-image-tint-color: var(--unity-colors-slider_thumb-background);
+	width: 26px;
+	height: 16px;
+	padding-left: 0px;
+
+	transition-property: padding-left;
+	transition-duration: 100ms;
+	transition-timing-function: ease-in;
+}
+
+.connection-toggle:checked {
+	-unity-background-image-tint-color: var(--unity-colors-highlight-text);
+	padding-left: 10px;
+
+	transition-property: padding-left;
+	transition-duration: 100ms;
+	transition-timing-function: ease-in;
+}
+
+.connection-toggle > .unity-toggle__input > #unity-checkmark{
+	background-image: url(ToggleKnob.png);
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.connection-menu {
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 16px;
+	margin-right:4px;
+	margin-left:4px;
+
+	background-image: resource("d__Menu");
+	border-width: 0px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.connection-menu:hover {
+	background-color: var(--unity-colors-button-background-hover);
+}
+
+.connection-menu > .unity-toolbar-menu__arrow {
+	background-image: none;
+	width: 16px;
+	height: 16px;
+}
+
+#firewall-section {
+	border-bottom-width: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-color: var(--unity-colors-app_toolbar_button-border);
+}

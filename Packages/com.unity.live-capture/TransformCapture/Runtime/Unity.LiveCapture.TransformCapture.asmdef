@@ -1,0 +1,16 @@
+{
+    "name": "Unity.LiveCapture.TransformCapture",
+    "rootNamespace": "Unity.LiveCapture.TransformCapture",
+    "references": [
+        "GUID:95419eedfe2e6c74dab3e84fcd6aa25c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="root" class="wizard-padding" style="flex-shrink: 1; flex-grow: 1;">
+        <ui:Label text="Scan the QR code below to download the companion apps" class="qr-intro header-container" style="-unity-text-align: upper-center; border-bottom-width: 0;" />
+        <ui:GroupBox style="flex-shrink: 1; flex-grow: 1;">
+            <ui:Label text="Virtual Camera" class="qr-title section-title paragraph-top paragraph-bottom" style="-unity-text-align: upper-center;" />
+            <ui:Image name="Image-vcam" class="qr-image-virtual-camera wizard-padding" style="height: auto; flex-grow: 1; flex-direction: column; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label text="Face Capture" class="paragraph-top section-title qr-title paragraph-bottom" style="-unity-text-align: upper-center;" />
+            <ui:Image name="Image-facecapture" class="qr-image-face-capture" style="flex-grow: 1;" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

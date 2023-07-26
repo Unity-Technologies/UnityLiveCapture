@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27633761279e541e1bce64987f33da3f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_DefaultLensAsset: {fileID: 5177688891170823328, guid: 0736b5832a28f0b43aa4705f8d840e01,
+      type: 2}
+  - m_Actor: {instanceID: 0}
+  - m_LensPreset: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

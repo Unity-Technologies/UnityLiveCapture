@@ -1,0 +1,32 @@
+{
+  "name": "com.unity.live-capture",
+  "displayName": "Live Capture",
+  "version": "4.0.0",
+  "unity": "2022.2",
+  "unityRelease": "17f1",
+  "description": "Capture data from physical devices to animate characters and cameras in real time within the Editor. Record the animations in the form of takes and iterate on the recordings. Genlock and synchronize devices for frame and timecode accuracy.",
+  "keywords": [
+    "virtual production",
+    "virtual camera",
+    "live capture",
+    "vcam"
+  ],
+  "category": "Unity",
+  "dependencies": {
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.timeline" : "1.7.0",
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "ARKit Face Sample",
+      "description": "A simple face for demonstrating face mocap from ARKit. Requires material upgrade if using with URP or HDRP.",
+      "path": "Samples~/ARKit Face Sample"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.live-capture.tests": "4.0.0-pre.5"
+  }
+}

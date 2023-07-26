@@ -1,0 +1,7 @@
+.connection-menu {
+	background-image: resource("_Menu");
+}
+
+.connection-toolbar-selected .connection-menu {
+	background-image: resource("d__Menu");
+}

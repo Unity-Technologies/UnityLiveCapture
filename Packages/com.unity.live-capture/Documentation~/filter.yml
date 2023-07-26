@@ -1,0 +1,24 @@
+apiRules:
+  - exclude:
+      # inherited Object methods
+      uidRegex: ^System\.Object\..*$
+      type: Method
+  - exclude:
+      # mentioning types from System.* namespace
+      uidRegex: ^System\..*$
+      type: Type
+  - exclude:
+      hasAttribute:
+        uid: System.ComponentModel.EditorBrowsableAttribute
+        ctorArguments:
+          - System.ComponentModel.EditorBrowsableState.Never
+  - exclude:
+      # inherited Object methods
+      uidRegex: ^(Microsoft)
+  - exclude:
+      uidRegex: ^(Unity.LiveCapture.CompanionApp)
+  - exclude:
+      uidRegex: ^(Unity.LiveCapture.CompanionApp.Editor)
+  - exclude:
+      # inherited Object methods
+      uidRegex: ^(Tests)

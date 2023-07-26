@@ -1,0 +1,28 @@
+{
+    "name": "Unity.LiveCapture",
+    "rootNamespace": "Unity.LiveCapture",
+    "references": [
+        "Unity.Timeline",
+        "Unity.InternalAPIEngineBridge.011"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.timeline",
+            "expression": "1.6.0-pre.5",
+            "define": "TIMELINE_1_6_0_OR_NEWER"
+        },
+        {
+            "name": "com.unity.timeline",
+            "expression": "1.7.0-pre.1",
+            "define": "TIMELINE_1_7_0_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

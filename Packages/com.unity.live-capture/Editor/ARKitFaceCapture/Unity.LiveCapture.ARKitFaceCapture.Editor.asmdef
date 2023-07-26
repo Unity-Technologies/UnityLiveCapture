@@ -1,0 +1,23 @@
+{
+    "name": "Unity.LiveCapture.ARKitFaceCapture.Editor",
+    "rootNamespace": "Unity.LiveCapture.ARKitFaceCapture.Editor",
+    "references": [
+        "Unity.LiveCapture",
+        "Unity.LiveCapture.Networking",
+        "Unity.LiveCapture.CompanionApp",
+        "Unity.LiveCapture.ARKitFaceCapture",
+        "Unity.LiveCapture.Editor",
+        "Unity.LiveCapture.CompanionApp.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

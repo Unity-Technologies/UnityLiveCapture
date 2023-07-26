@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916c1221ee28c461985446a920dd07a9, type: 3}
+  m_Name: Default Aspect Ratio Presets
+  m_EditorClassIdentifier: 
+  m_AspectRatios:
+  - m_Name: Television Standard (4:3)
+    m_AspectRatio: 1.3
+  - m_Name: Academy Ratio
+    m_AspectRatio: 1.37
+  - m_Name: IMAX
+    m_AspectRatio: 1.43
+  - m_Name: Full Frame 35mm
+    m_AspectRatio: 1.5
+  - m_Name: HDTV
+    m_AspectRatio: 1.76
+  - m_Name: HD Video Standard (16:9) #1
+    m_AspectRatio: 1.77
+  - m_Name: HD Video Standard (16:9) #2
+    m_AspectRatio: 1.78
+  - m_Name: US Widescreen Cinema
+    m_AspectRatio: 1.85
+  - m_Name: Native Super 16mm
+    m_AspectRatio: 1.9
+  - m_Name: Univisium (18:9)
+    m_AspectRatio: 2
+  - m_Name: Standard 70mm
+    m_AspectRatio: 2.2
+  - m_Name: Widescreen Cinema
+    m_AspectRatio: 2.35
+  - m_Name: Twenty-One by Nine
+    m_AspectRatio: 2.37
+  - m_Name: Cinemascope
+    m_AspectRatio: 2.39
+  - m_Name: Widescreen Cinema
+    m_AspectRatio: 2.4
+  - m_Name: Ultra Panavision 70
+    m_AspectRatio: 2.76
+  - m_Name: Super Ultrawide (32:9)
+    m_AspectRatio: 3.5
+  - m_Name: Ultra-WideScreen (18:5)
+    m_AspectRatio: 3.6

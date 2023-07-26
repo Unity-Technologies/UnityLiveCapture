@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement class="indent-content">
+		<ui:VisualElement name="no-client-section" class="space-content">
+			<ui:Label text="No client is connected." />
+			<ui:Button name="learn-more-button" text="Learn More" class="inline-hyperlink" />
+		</ui:VisualElement>
+		<ui:VisualElement name="client-section" class="space-content">
+			<ui:Foldout text="Connected devices" tooltip="The client devices currently connected to the server.">
+				<ui:VisualElement name="client-list" class="spaced-list" />
+			</ui:Foldout>
+		</ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

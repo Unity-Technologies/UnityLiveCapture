@@ -1,0 +1,22 @@
+{
+    "name": "Unity.LiveCapture.Editor",
+    "rootNamespace": "Unity.LiveCapture.Editor",
+    "references": [
+        "Unity.LiveCapture",
+        "Unity.LiveCapture.Networking",
+        "Unity.Timeline",
+        "Unity.Timeline.Editor",
+        "Unity.InternalAPIEditorBridge.011"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
