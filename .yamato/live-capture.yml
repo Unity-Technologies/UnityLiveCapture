@@ -43,9 +43,9 @@ test_package_pr:
   name: Run tests after package changes
   triggers:
       expression: |
-        {% for package in live_capture_packages %}pull_request.push.changes.any match "{{package.path}}/**" OR (push.changes.any match "{{ package.path}}/**" AND push.branch eq "develop") OR {% endfor %}
-        {% for project in multiplatform_test_projects %}pull_request.push.changes.any match "{{ project.info[0].path }}/**" OR (push.changes.any match "{{project.info[0].path}}/**" AND push.branch eq "develop") OR {% endfor %}
-        pull_request.push.changes.any match "TestProjects/HDRPTestsLatest/**" OR (push.changes.any match "TestProjects/HDRPTestsLatest/**" AND push.branch eq "develop")
+        {% for package in live_capture_packages %}pull_request.push.changes.any match "{{package.path}}/**" OR (push.changes.any match "{{ package.path}}/**" AND push.branch eq "main") OR {% endfor %}
+        {% for project in multiplatform_test_projects %}pull_request.push.changes.any match "{{ project.info[0].path }}/**" OR (push.changes.any match "{{project.info[0].path}}/**" AND push.branch eq "main") OR {% endfor %}
+        pull_request.push.changes.any match "TestProjects/HDRPTestsLatest/**" OR (push.changes.any match "TestProjects/HDRPTestsLatest/**" AND push.branch eq "main")
   dependencies:
     {% for project in multiplatform_test_projects %}
      - .yamato/live-capture.yml#test_win_{{ test_editors.first.version }}_{{ project.info[1].name }}     
@@ -55,15 +55,13 @@ test_package_pr:
      - .yamato/live-capture.yml#api_doc_validation
      # Builds the apps
      - .yamato/live-capture.yml#test_virtualmac_2022.2_VirtualCameraClient
-     - .yamato/compatibility.yml#LiveCaptureCompatibilityWithLatestCinemachine
-     - .yamato/compatibility.yml#LiveCaptureCompatibilityWithLatestCinemachineURP
      
 test_client_pr:
   name: Run tests after client changes
   triggers:
     expression: |
       pull_request.(push.changes.any match "VirtualCameraClient/**" OR push.changes.any match "FaceCaptureClient/**" OR push.changes.any match "InternalPackages/**") OR
-      (push.changes.any match "VirtualCameraClient/**" OR push.changes.any match "FaceCaptureClient/**" OR push.changes.any match "InternalPackages/**" AND push.branch eq "develop")
+      (push.changes.any match "VirtualCameraClient/**" OR push.changes.any match "FaceCaptureClient/**" OR push.changes.any match "InternalPackages/**" AND push.branch eq "main")
   dependencies:
      - .yamato/live-capture.yml#test_virtualmac_2022.2_VirtualCameraClient
 
@@ -126,7 +124,7 @@ nightly_tests:
     flavor: b1.large
   triggers:
     recurring:
-      - branch: develop
+      - branch: main
         frequency: daily
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
@@ -144,8 +142,6 @@ nightly_tests:
      - .yamato/live-capture.yml#test_macmetal_{{ editor.version }}_{{ project.info[1].name }}
     {% endfor %} 
     {% endfor %}
-     - .yamato/compatibility.yml#LiveCaptureCompatibilityWithLatestCinemachine
-     - .yamato/compatibility.yml#LiveCaptureCompatibilityWithLatestCinemachineURP
      - .yamato/live-capture.yml#test_virtualmac_2022.2_VirtualCameraClient
      - .yamato/live-capture-hdrptests.yml#test_hdrp_allplatforms 
 
