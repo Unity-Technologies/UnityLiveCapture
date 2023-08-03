@@ -1,0 +1,61 @@
+publish:
+  name: Publish packages to Staging Registry
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - IF %IS_DRY_RUN% == 1 (upm-ci project publish --project-path TestProjects/PkgTests --dry-run) ELSE (upm-ci project publish --project-path TestProjects/PkgTests)
+  variables:
+    IS_DRY_RUN: 0
+    UPMCI_ENABLE_PACKAGE_SIGNING: 1
+  triggers:
+    branches:
+      only:
+        - /publish/[\d.]+/release/
+  artifacts:
+    artifacts:
+      paths:
+        - "upm-ci~/packages/*.tgz"
+  dependencies:
+    - .yamato/live-capture.yml#pack_PkgTests
+    - .yamato/live-capture.yml#test_win_2022.2_PkgTests
+
+tests_for_promotion:
+  name: Run tests for promotion
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - upm-ci project test -u 2022.2 --project-path TestProjects/PkgTests --type vetting-tests --extra-create-project-arg=-upmNoDefaultPackages
+  artifacts:
+    logs:
+      paths:
+        - "upm-ci~/test-results/**/*"
+  variables:
+    UPMCI_PROMOTION: 1
+  dependencies:
+    - .yamato/live-capture.yml#pack_PkgTests
+
+promote:
+  name: Promote packages to Production Registry
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - IF %IS_DRY_RUN% == 1 (upm-ci project promote --project-path TestProjects/PkgTests --dry-run) ELSE (upm-ci project promote --project-path TestProjects/PkgTests)
+  variables:
+    IS_DRY_RUN: 0
+    UPMCI_PROMOTION: 1
+  triggers:
+    branches:
+      only:
+        - /publish/[\d.]+/release/
+  dependencies:
+    - .yamato/live-capture.yml#pack_PkgTests
+    - .yamato/live-capture-releases.yml#tests_for_promotion

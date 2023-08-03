@@ -1,0 +1,86 @@
+test_editors:
+  - version: trunk
+  - version: 2022.2
+  
+  #We need to use a more recent project with later HDRP, because materials upgrade is broken.
+---
+
+test_hdrp_allplatforms:
+  name : Run HDRPTests on all platforms
+  dependencies:
+{% for editor in test_editors %}
+    - .yamato/live-capture-hdrptests.yml#test_win_{{ editor.version }}_HDRPTests
+    - .yamato/live-capture-hdrptests.yml#test_linux_{{ editor.version }}_HDRPTests
+    # LC-1603 - HDRP tests are too heavy to run on MacOS and cause timeouts
+    # - .yamato/live-capture-hdrptests.yml#test_macmetal_{{ editor.version }}_HDRPTests
+{% endfor %}
+
+{% for editor in test_editors %}
+test_win_{{ editor.version }}_HDRPTests:
+  name : Test HDRPTests {{ editor.version }} Windows
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:stable
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - upm-ci project test -u {{ editor.version }} --project-path TestProjects/HDRPTestsLatest --type=project-tests --extra-create-project-arg="-upmNoDefaultPackages"
+  artifacts:
+    logs:
+      paths:
+        - "upm-ci~/test-results/**/*"
+  dependencies:
+    - .yamato/live-capture-hdrptests.yml#pack_HDRPTestsLatest
+{% endfor %}
+ 
+pack_HDRPTestsLatest:
+  name: Pack HDRPTests Latest
+  agent:
+    type: Unity::VM
+    image: package-ci/ubuntu:stable
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - upm-ci project pack --project-path TestProjects/HDRPTestsLatest
+  artifacts:
+    packages:
+      paths:
+        - "upm-ci~/packages/**/*"
+
+{% for editor in test_editors %}
+test_linux_{{ editor.version }}_HDRPTests:
+  name : Test HDRP {{ editor.version }} on Linux
+  agent:
+    type: Unity::VM::GPU
+    image: package-ci/ubuntu-20:v1.4.3-1123541
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - upm-ci project test -u {{ editor.version }} --project-path TestProjects/HDRPTestsLatest --type=project-tests --extra-create-project-arg="-upmNoDefaultPackages" --extra-editor-arg force-vulkan
+  artifacts:
+    logs:
+      paths:
+        - "upm-ci~/test-results/**/*"
+  dependencies:
+    - .yamato/live-capture-hdrptests.yml#pack_HDRPTestsLatest
+{% endfor %}
+
+{% for editor in test_editors %}
+test_macmetal_{{ editor.version }}_HDRPTests:
+  name : Test HDRPTests {{ editor.version }} MacMetal
+  agent:
+    type: Unity::metal::macmini
+    image: package-ci/macos-12:v0.0.1-1084810
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+
+    # We run all isolation tests and package tests only for one project, not to be redundant.
+    - upm-ci project test -u {{ editor.version }} --project-path TestProjects/HDRPTestsLatest --type=project-tests --extra-create-project-arg="-upmNoDefaultPackages"
+  artifacts:
+    logs:
+      paths:
+        - "upm-ci~/test-results/**/*"
+  dependencies:
+    - .yamato/live-capture-hdrptests.yml#pack_HDRPTestsLatest
+{% endfor %}
