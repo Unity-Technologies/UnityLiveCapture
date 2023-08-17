@@ -27,6 +27,6 @@
     }
   ],
   "relatedPackages": {
-    "com.unity.live-capture.tests": "4.0.0-pre.5"
+    "com.unity.live-capture.tests": "4.0.0"
   }
 }
