@@ -1,0 +1,42 @@
+{
+    "name": "Unity.LiveCapture.Cameras.Editor",
+    "rootNamespace": "Unity.LiveCapture.Cameras.Editor",
+    "references": [
+        "Unity.LiveCapture",
+        "Unity.LiveCapture.Cameras",
+        "Unity.LiveCapture.Editor",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.LiveCapture.Rendering.Editor",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Editor",
+        "Unity.RenderPipelines.HighDefinition.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "14.0.0",
+            "define": "SRP_CORE_14_0_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "14.0.0",
+            "define": "HDRP_14_0_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "14.0.0",
+            "define": "URP_14_0_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

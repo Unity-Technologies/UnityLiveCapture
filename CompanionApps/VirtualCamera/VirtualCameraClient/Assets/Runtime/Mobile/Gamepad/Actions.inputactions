@@ -1,0 +1,1370 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "d640f182-c06e-481a-8438-2237c7b5edcf",
+            "actions": [
+                {
+                    "name": "Move Forward",
+                    "type": "Value",
+                    "id": "645d1fc0-20e2-477d-acfa-e5df1837d946",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Backward",
+                    "type": "Value",
+                    "id": "f155f1d5-9b37-4078-ab20-553785920028",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Right",
+                    "type": "Value",
+                    "id": "babd0c24-fdeb-4a93-bea7-7a796882e63a",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Left",
+                    "type": "Value",
+                    "id": "8f8bccb1-33ae-49e7-a77c-0c2a3c38d6c7",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Up",
+                    "type": "Value",
+                    "id": "ec71ee0b-1e7e-423b-8bd9-ea1d8e0875e6",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Down",
+                    "type": "Value",
+                    "id": "f5afd542-60af-4523-b1eb-e5f43e6092e8",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look Up",
+                    "type": "Value",
+                    "id": "4d853ab2-4360-4759-9d0c-c6aad1d869b8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look Down",
+                    "type": "Value",
+                    "id": "0993f460-923c-4165-a8e1-7c7aaabd4cb4",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look Right",
+                    "type": "Value",
+                    "id": "ce87f4f8-b8a9-4432-8d16-17d88ae9918d",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look Left",
+                    "type": "Value",
+                    "id": "6a6325da-6838-4fe6-af90-5caf1a3fc102",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look Clockwise",
+                    "type": "Value",
+                    "id": "bbd7f200-cd6b-473d-bd2e-800dd7b1c0f9",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Look Counter Clockwise",
+                    "type": "Value",
+                    "id": "adbbb924-039f-4f55-8ec4-24b8e3b47c5c",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Reset Pose",
+                    "type": "Value",
+                    "id": "3cefa051-c21f-4356-a5c8-7f199534bd1b",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Reset Lens",
+                    "type": "Value",
+                    "id": "ad338c5c-b5b6-4fe4-adb1-57961099e234",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Toggle Reposition",
+                    "type": "Value",
+                    "id": "47dcdf8b-5bd4-4fbd-80f4-118d15e67818",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Zoom +",
+                    "type": "Value",
+                    "id": "05f65a8d-6389-4481-bdee-8790fbad30ce",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Zoom -",
+                    "type": "Value",
+                    "id": "3bd4d985-f7de-487c-920f-ff1da9c8b5c2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FStop +",
+                    "type": "Value",
+                    "id": "d50f7942-cb96-4f5a-949a-74a50049325a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FStop -",
+                    "type": "Value",
+                    "id": "98f4617e-846d-4600-bcec-ace66a68d161",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Focus Distance +",
+                    "type": "Value",
+                    "id": "09cfc400-c504-44b5-84fd-4fcd17030a86",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Focus Distance -",
+                    "type": "Value",
+                    "id": "26e3da78-8c68-4e88-9048-e68e26465534",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Next Focus Mode",
+                    "type": "Value",
+                    "id": "012b5ae0-99a2-4958-86bb-f57722803643",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Previous Focus Mode",
+                    "type": "Value",
+                    "id": "822381e4-4403-48c6-a66e-3253726faa45",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Toggle Recording",
+                    "type": "Value",
+                    "id": "3bb0dd71-d8d8-4781-aeff-91b687cf40aa",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Toggle Playback",
+                    "type": "Value",
+                    "id": "c8765bf9-a11b-434f-aa7a-7acb68c97f99",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Fast Forward",
+                    "type": "Value",
+                    "id": "79c4a7ef-cba7-42b6-86c0-803db63b00ca",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rewind",
+                    "type": "Value",
+                    "id": "46e2f869-9f37-44cf-908c-f275aa65d8e8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Skip One Frame",
+                    "type": "Value",
+                    "id": "0960b32e-290f-4133-be9d-82fd073b07a8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rewind One Frame",
+                    "type": "Value",
+                    "id": "a5425de4-3bdd-486e-97a7-b79141fd0c86",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Skip Ten Frames",
+                    "type": "Value",
+                    "id": "483de475-f1a7-465a-8225-a440305fcf3a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rewind Ten Frames",
+                    "type": "Value",
+                    "id": "7bff7ca5-928d-44da-b673-d3cba1a5cfd9",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Toggle Device Mode",
+                    "type": "Value",
+                    "id": "4e9129aa-c016-4ba7-8078-a2edd2fbfc46",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier Custom",
+                    "id": "1b769db3-f181-43ac-809e-bf299711066b",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Forward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "c96d24ab-1899-4478-8933-db2628cc613b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "34ad3244-7d76-40b1-9fd2-b5ff9a3f9b51",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Move Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "f0b7f8d7-740d-4361-97cd-ae4cd21ed500",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Backward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "f9547629-1d17-49f1-ad1f-c2915f7161f5",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Backward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "b0593ce8-a62d-4d12-ae53-f7e2cfa59e4d",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Move Backward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "c110273a-7cd9-4bfb-815e-4a98ae022f61",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Right",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9b3d26f6-0afe-4e97-98a6-bb0aedd5d89e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Right",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "6073d9d7-8561-468c-894a-8e738c388b5d",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Move Right",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "5445a948-a4e7-442c-baa5-21081543f7f8",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Left",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "e1417a4f-d70b-402b-bab0-672e839e1f81",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Left",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "860ac9c2-773d-4449-b118-7027eee3385f",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Move Left",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "3e7b46cf-9823-4571-89ab-e5c5dcf55521",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Up",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "a934361b-7a43-4c93-8f7d-f6cac33fd8a0",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Up",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "1ae5db19-8788-41fd-bb0d-c6caaa426f12",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Move Up",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "cc7760d7-388b-4aef-ab7f-56ab72ed5968",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Down",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "0102553d-cf32-4dfb-a078-0619419053ae",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Down",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "dcb13ae7-e849-401e-85ba-39cad71eb5f4",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Move Down",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "ab356e6c-21d8-4070-ab70-d3f40e4f372d",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Up",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "a935bb2e-9800-4df6-8c74-f7f0aad61ab9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Up",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "d891b5c4-d095-4017-8286-d2a02f5d8358",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=100)",
+                    "groups": "",
+                    "action": "Look Up",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "84c4ae66-9561-49ba-9776-4fdf3df6f1b5",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Down",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "4bb761e7-bfd7-4b3f-b867-accf19d7d876",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Down",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "18cf8a85-f06d-4092-8fc4-5c7ce2e27227",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=100)",
+                    "groups": "",
+                    "action": "Look Down",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "e925fc32-93ef-4976-85e0-6f24539e43dc",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Right",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9a1d6d89-fd47-44cb-b4c2-ce4a04a4be9b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Right",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "7630660c-014e-4374-affa-6aca381ad67c",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=100)",
+                    "groups": "",
+                    "action": "Look Right",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "f1deef81-ec94-4baf-97ed-a3037208bbbe",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Left",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9e885dc5-add9-4cdf-8469-71cdc8f87ade",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Left",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "f16e2c32-5c02-4078-a7fc-28c9dc263450",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=100)",
+                    "groups": "",
+                    "action": "Look Left",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "68327e29-4ee6-49c4-b3b4-4a0edd1adf00",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Clockwise",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "ae808e57-2ccb-44cc-ad3b-14bbb19921c1",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Clockwise",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "bc56f9bb-dccd-4172-84fa-f6d524e7595e",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=100)",
+                    "groups": "",
+                    "action": "Look Clockwise",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "88780703-2916-4e04-8081-c94470ec2521",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Counter Clockwise",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "22677cfa-45c6-4ac8-824c-074820b352ec",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look Counter Clockwise",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "dc5c22eb-f822-423a-a484-9032e15c1934",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=100)",
+                    "groups": "",
+                    "action": "Look Counter Clockwise",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "960b3170-fdb8-4b08-a8de-c4aa193cc2b6",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pose",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "2f99da04-b38a-4a55-b642-8737bbd8db40",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "9889072d-dc0b-4883-96bf-5f42f04f5472",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "ebafdd42-c627-4f56-89bb-dadddca527d0",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Lens",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "ac93a000-23a6-4576-a7b3-ccb56ada810c",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Lens",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "672108c5-527a-4cb6-9b50-9f89cbe58d76",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Lens",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "95fc5ca7-73b6-4711-ba6e-6556d3400173",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Reposition",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "a0c2c62c-68fb-4194-8bf5-d96bd878b765",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Reposition",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "0b30cb13-e345-4969-acae-b8c3664d3367",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Reposition",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "3c49c063-7ba0-4ccc-9ed4-8b7d92c53e4b",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Device Mode",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "215c9420-4c00-40bc-bcd5-2b8c2707a11b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Device Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "b62a0e33-638a-49be-8963-5e5dd995cd94",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Device Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "c1df0f21-8cf2-4d05-9fdf-101862438172",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Recording",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "7b4c1200-354f-4c58-b682-594de430206f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Recording",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "34a18939-aab3-437c-8b20-e6cc192bf4b6",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Recording",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "a1e56736-ba70-4d74-80e3-23f37be319e5",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Playback",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "4d4706b6-fbf7-4607-9240-64ad3cfe7267",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Playback",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "8031521f-97a0-4eb5-984e-d76be6b8f193",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Playback",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "ea57b06b-032a-4665-855e-26e86ee73eaa",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip One Frame",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9b5982e4-a224-47a3-8b96-d00567603fa6",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip One Frame",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "d6abfe65-d941-4c3f-bdcd-a07fcc951efb",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip One Frame",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "5a16d2d4-d3bf-4456-b280-fa4ed5e7fd99",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind One Frame",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "75fdd9b3-759c-4b26-8177-3b478498f587",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind One Frame",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "2d476f0d-a71f-4cd9-b6a8-3c1d69877390",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind One Frame",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "3482f060-e261-40b9-a1bb-f9e889ac1ae4",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip Ten Frames",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "d1a66643-d053-4f3c-8789-6067faf00837",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip Ten Frames",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "055d95f1-c383-4e6f-a341-89df161a6860",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip Ten Frames",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "ee803ca9-b75a-4ee2-94d7-70ca2c4aa37e",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind Ten Frames",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "e3d08b08-140b-4f2a-bc51-8bd37154a8fc",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind Ten Frames",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "3ba3d65a-27b2-4765-b692-af634e9c4303",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind Ten Frames",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "92b10261-faf8-405f-bade-55550293a8a0",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fast Forward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "648f5974-e9ca-49a4-82fb-e7e3f4158e05",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fast Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "4acd259e-b79b-4dfb-8d08-3c5a31cd12e8",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=2)",
+                    "groups": "",
+                    "action": "Fast Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "d1e874d6-616e-436c-a40f-4304a9aeac5a",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "0558798a-be77-4914-b56d-f5a83bd23790",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "9a62cb3e-0d30-4eb1-9329-b003db0f8275",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=2)",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "d5b131f8-f9fc-423d-841d-70482daac7be",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Focus Mode",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "6dc5082a-fdb3-4df8-b1eb-7de0e5292d50",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Focus Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "ca1ceec2-b8c6-471f-9809-9afd7ca6826b",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Focus Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "259b80b1-7a0b-4559-9bc5-d655ae97c4ba",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous Focus Mode",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "41502a9c-211b-483c-a018-1fb9aac90c74",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous Focus Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "60153359-f816-4518-9b7d-8228fdc61eac",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous Focus Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "d12f5069-1087-44eb-b974-f407e61ca158",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom +",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9ac8b5cb-e814-4d80-b148-213a67856e21",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom +",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "ac3755bb-fa26-466f-8cf6-3ffe9111b334",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=0.25)",
+                    "groups": "",
+                    "action": "Zoom +",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "93e209d1-3d7d-4f04-8329-fb7e54823a26",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom -",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "3b15e52d-80dc-42df-8241-831c3ee42b03",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom -",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "f95f5000-a7cc-4d78-95aa-e2409ab93a94",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=0.25)",
+                    "groups": "",
+                    "action": "Zoom -",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "31f4f749-09c1-44c9-95f4-d875cf714879",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FStop +",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "8ba45f12-65c3-4d61-86fd-4f2e5cd401d7",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FStop +",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "81688c00-a1fa-479d-a25c-96fadcc602c8",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=0.125)",
+                    "groups": "",
+                    "action": "FStop +",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "0bdb0dee-938b-425f-9dbf-4d3d54c5a9a5",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FStop -",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "224bd952-06e2-46ff-a0ce-cc39030218b1",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FStop -",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "a37cb6b3-b266-46ee-b3d4-bd234ba23e5e",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=0.125)",
+                    "groups": "",
+                    "action": "FStop -",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "2db989c6-a10e-487f-9a48-0f869d4ad0f7",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Focus Distance +",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "2c6bbb62-974d-4829-a2b9-348afc7bf24d",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Focus Distance +",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "8ac9b2c5-4349-40f3-93d5-e6db370e596d",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=0.125)",
+                    "groups": "",
+                    "action": "Focus Distance +",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "11aa8187-70ca-43cc-9a52-9e2f54b1d05a",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Focus Distance -",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "4691009f-b296-4afc-953a-6d5911834143",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Focus Distance -",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "3081020a-7a0e-42a5-beca-51f3c8dda44b",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone,Scale(factor=0.125)",
+                    "groups": "",
+                    "action": "Focus Distance -",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

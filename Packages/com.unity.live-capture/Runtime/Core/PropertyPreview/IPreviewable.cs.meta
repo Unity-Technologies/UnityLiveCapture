@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d29dfae361d4e46efa572ae17434cc9b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_RecorderTake: {fileID: 11400000, guid: 9469d533b19f3d34b8f42d57f2a8944e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

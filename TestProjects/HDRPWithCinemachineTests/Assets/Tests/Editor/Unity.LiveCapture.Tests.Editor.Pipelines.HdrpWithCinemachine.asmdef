@@ -1,0 +1,30 @@
+{
+    "name": "Unity.LiveCapture.Tests.Editor.Pipelines.Hdrp",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.LiveCapture",
+        "Unity.LiveCapture.VirtualCamera",
+        "Unity.LiveCapture.VirtualCamera.Editor",
+        "Cinemachine",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.LiveCapture.Tests.Editor.Pipelines"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

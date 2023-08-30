@@ -1,0 +1,25 @@
+{
+    "name": "Unity.VirtualCameraClient.Runtime",
+    "rootNamespace": "Unity.CompanionApp.VirtualCamera",
+    "references": [
+        "GUID:59872e6d1986f47378e2eb29e5881d70",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:49fede9355492427f852ef03bae5250e",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:3c635070a30454e78867fdcc8150cbd3",
+        "GUID:defa38a7343761140939d6c32f6a4fc5",
+        "GUID:b32f3e0d77af2e848a0a1765b090deb7",
+        "GUID:b5a20585623b14322b655a52d0e5340c",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:95419eedfe2e6c74dab3e84fcd6aa25c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

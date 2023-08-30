@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7624e7e6b8bc7442085f4f0bed02c1c7, type: 3}
+  m_Name: Default Sensor Presets
+  m_EditorClassIdentifier: 
+  m_Sensors:
+  - m_Name: 8mm
+    m_SensorSize: {x: 4.8, y: 3.5}
+  - m_Name: Super 8mm
+    m_SensorSize: {x: 5.79, y: 4.01}
+  - m_Name: 16mm
+    m_SensorSize: {x: 10.26, y: 7.49}
+  - m_Name: Super 16mm
+    m_SensorSize: {x: 12.52, y: 7.41}
+  - m_Name: 35mm 2-perf
+    m_SensorSize: {x: 21.95, y: 9.35}
+  - m_Name: 35mm Academy
+    m_SensorSize: {x: 21, y: 15.2}
+  - m_Name: Super-35
+    m_SensorSize: {x: 24.89, y: 18.66}
+  - m_Name: Full-frame DSLR
+    m_SensorSize: {x: 36, y: 24}
+  - m_Name: 65mm ALEXA
+    m_SensorSize: {x: 54.12, y: 25.59}
+  - m_Name: 70mm
+    m_SensorSize: {x: 70, y: 51}
+  - m_Name: 70mm IMAX
+    m_SensorSize: {x: 70.41, y: 52.63}

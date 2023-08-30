@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "com.unity.live-capture": "file:../../../Packages/com.unity.live-capture",
+    "com.unity.live-capture.pipelines.tests": "file:../../../Packages/com.unity.live-capture.pipelines.tests",
+    "com.unity.render-pipelines.universal": "10.4.0",
+    "com.unity.testtools.codecoverage": "1.0.0-pre.3",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0"
+  },
+  "testables": [
+    "com.unity.live-capture.pipelines.tests"
+  ]
+}

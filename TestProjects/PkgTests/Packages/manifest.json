@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "com.unity.live-capture": "file:../../../Packages/com.unity.live-capture",
+    "com.unity.live-capture.tests": "file:../../../Packages/com.unity.live-capture.tests",
+    "com.unity.testtools.codecoverage": "1.0.1",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "Testables": [
+    "com.unity.live-capture"
+  ]
+}

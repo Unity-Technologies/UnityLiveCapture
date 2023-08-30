@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "com.unity.cinemachine": "2.5.0",
+    "com.unity.live-capture": "file:../../../Packages/com.unity.live-capture",
+    "com.unity.live-capture.pipelines.tests": "file:../../../Packages/com.unity.live-capture.pipelines.tests",
+    "com.unity.render-pipelines.high-definition": "10.4.0",
+    "com.unity.test-framework": "1.1.24",
+    "com.unity.testtools.codecoverage": "1.0.0-pre.3",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.video": "1.0.0"
+  },
+  "testables": [
+    "com.unity.live-capture.pipelines.tests"
+  ]
+}

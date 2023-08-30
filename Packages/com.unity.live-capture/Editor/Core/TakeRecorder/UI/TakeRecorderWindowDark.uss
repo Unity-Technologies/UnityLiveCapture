@@ -1,0 +1,3 @@
+.Icon-Live {
+    background-image: resource('Packages/com.unity.live-capture/Editor/Core/Icons/d_Live@64.png');
+}

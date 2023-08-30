@@ -1,0 +1,8 @@
+{
+	"fastfile": "fastlane/Fastfile",
+	"appfile": "fastlane/Appfile",
+	"lanes": {
+		"pre_build": "increment",
+		"post_build": "beta"
+	}
+}

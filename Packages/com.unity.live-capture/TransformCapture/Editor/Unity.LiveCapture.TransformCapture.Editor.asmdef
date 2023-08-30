@@ -1,0 +1,19 @@
+{
+    "name": "Unity.LiveCapture.TransformCapture.Editor",
+    "rootNamespace": "Unity.LiveCapture.TransformCapture",
+    "references": [
+        "GUID:7f3212ce916454d608c1efbc0ef69ce3",
+        "GUID:f5b02b890db5fae44882ddbb235a0128"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

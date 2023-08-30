@@ -1,0 +1,10 @@
+{
+   "FilenameValidation":{
+      "Filenames":[
+         {
+            "Filename":"Runtime/Prefabs/Switch.prefab*",
+            "Targets":"+Switch"
+         }
+      ]
+   }
+}

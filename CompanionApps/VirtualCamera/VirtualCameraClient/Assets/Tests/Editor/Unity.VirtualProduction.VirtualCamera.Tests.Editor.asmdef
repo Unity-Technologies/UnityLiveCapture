@@ -1,0 +1,28 @@
+{
+    "name": "Unity.VirtualProduction.Tests.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:95419eedfe2e6c74dab3e84fcd6aa25c",
+        "GUID:defa38a7343761140939d6c32f6a4fc5",
+        "GUID:b5a20585623b14322b655a52d0e5340c",
+        "GUID:c18ee748c6b3844c7993ff710e92d4b5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "NSubstitute.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

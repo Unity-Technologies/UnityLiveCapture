@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 00587a831d73e5e4abb4db54671d6ad9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: balls
+    100002: button1
+    100004: eye_gr
+    100006: eye_R
+    100008: eyebrows
+    100010: eyeL
+    100012: eyelash
+    100014: Face
+    100016: fur_orig1
+    100018: hair
+    100020: hair_alpha_layer_front
+    100022: hair_alpha_layer_ponytail
+    100024: hair_inner_bang
+    100026: hair_inner_layer_front
+    100028: hair_inner_layer_ponytail
+    100030: hair_inner_tips
+    100032: hair_sprays_front
+    100034: hair_sprays_ponytails
+    100036: hair_ties
+    100038: hair_ties_small_front
+    100040: hair_ties_small_ponytail
+    100042: head
+    100044: head_All
+    100046: //RootNode
+    100048: LittleGirl_polywink_iphonex_Little_girl
+    100050: ponytail
+    100052: Shirt
+    100054: shirt3
+    100056: sweater
+    100058: sweater5
+    100060: teeth
+    100062: teeth_tongue
+    100064: tongue
+    100066: Character1_Head
+    100068: Character1_Hips
+    100070: Character1_Jaw1
+    100072: Character1_JawTip
+    100074: Character1_LeftArm
+    100076: Character1_LeftShoulder
+    100078: Character1_Neck
+    100080: Character1_RightArm
+    100082: Character1_RightShoulder
+    100084: Character1_Spine
+    100086: Character1_Spine1
+    100088: Character1_Spine2
+    100090: group1
+    100092: LittleGirl
+    100094: PonyTail_Left
+    100096: PonyTail_Left1
+    100098: PonyTail_Left2
+    100100: PonyTail_Left3
+    100102: PonyTail_Left4
+    100104: PonyTail_Left5
+    100106: PonyTail_Left6
+    100108: PonyTail_Right
+    100110: PonyTail_Right1
+    100112: PonyTail_Right2
+    100114: PonyTail_Right3
+    100116: PonyTail_Right4
+    100118: PonyTail_Right5
+    100120: PonyTail_Right6
+    100122: Clothing
+    100124: shirt1
+    100126: Character1_EyeLeft
+    100128: Character1_EyeRight
+    100130: Character1_HeadAnchor
+    100132: Character1_LeftForeArm
+    100134: Character1_RightForeArm
+    100136: group2
+    100138: eyebrowBlends
+    100140: eyelashesBlends
+    100142: faceBlends
+    100144: teethBlends
+    100146: tongueBlends
+    100148: Character1_LeftFoot
+    100150: Character1_LeftHand
+    100152: Character1_LeftHand 1
+    100154: Character1_LeftHandIndex1
+    100156: Character1_LeftHandIndex1 1
+    100158: Character1_LeftHandIndex2
+    100160: Character1_LeftHandIndex2 1
+    100162: Character1_LeftHandIndex3
+    100164: Character1_LeftHandIndex3 1
+    100166: Character1_LeftHandIndex4
+    100168: Character1_LeftHandIndex4 1
+    100170: Character1_LeftHandMiddle1
+    100172: Character1_LeftHandMiddle1 1
+    100174: Character1_LeftHandMiddle2
+    100176: Character1_LeftHandMiddle2 1
+    100178: Character1_LeftHandMiddle3
+    100180: Character1_LeftHandMiddle3 1
+    100182: Character1_LeftHandMiddle4
+    100184: Character1_LeftHandMiddle4 1
+    100186: Character1_LeftHandPinky1
+    100188: Character1_LeftHandPinky1 1
+    100190: Character1_LeftHandPinky2
+    100192: Character1_LeftHandPinky2 1
+    100194: Character1_LeftHandPinky3
+    100196: Character1_LeftHandPinky3 1
+    100198: Character1_LeftHandPinky4
+    100200: Character1_LeftHandPinky4 1
+    100202: Character1_LeftHandRing1
+    100204: Character1_LeftHandRing1 1
+    100206: Character1_LeftHandRing2
+    100208: Character1_LeftHandRing2 1
+    100210: Character1_LeftHandRing3
+    100212: Character1_LeftHandRing3 1
+    100214: Character1_LeftHandRing4
+    100216: Character1_LeftHandRing4 1
+    100218: Character1_LeftHandThumb1
+    100220: Character1_LeftHandThumb1 1
+    100222: Character1_LeftHandThumb2
+    100224: Character1_LeftHandThumb2 1
+    100226: Character1_LeftHandThumb3
+    100228: Character1_LeftHandThumb3 1
+    100230: Character1_LeftHandThumb4
+    100232: Character1_LeftHandThumb4 1
+    100234: Character1_LeftLeg
+    100236: Character1_LeftToeBase
+    100238: Character1_LeftUpLeg
+    100240: Character1_RightFoot
+    100242: Character1_RightLeg
+    100244: Character1_RightToeBase
+    100246: Character1_RightUpLeg
+    100248: Little_Girl
+    100250: Character1_RightHand
+    100252: Character1_RightHandIndex1
+    100254: Character1_RightHandIndex2
+    100256: Character1_RightHandIndex3
+    100258: Character1_RightHandIndex4
+    100260: Character1_RightHandMiddle1
+    100262: Character1_RightHandMiddle2
+    100264: Character1_RightHandMiddle3
+    100266: Character1_RightHandMiddle4
+    100268: Character1_RightHandPinky1
+    100270: Character1_RightHandPinky2
+    100272: Character1_RightHandPinky3
+    100274: Character1_RightHandPinky4
+    100276: Character1_RightHandRing1
+    100278: Character1_RightHandRing2
+    100280: Character1_RightHandRing3
+    100282: Character1_RightHandRing4
+    100284: Character1_RightHandThumb1
+    100286: Character1_RightHandThumb2
+    100288: Character1_RightHandThumb3
+    100290: Character1_RightHandThumb4
+    100292: eye_L
+    100294: eyebrows_shapes
+    100296: eyelash_shapes
+    100298: head_shapes
+    100300: headBlends
+    400000: balls
+    400002: button1
+    400004: eye_gr
+    400006: eye_R
+    400008: eyebrows
+    400010: eyeL
+    400012: eyelash
+    400014: Face
+    400016: fur_orig1
+    400018: hair
+    400020: hair_alpha_layer_front
+    400022: hair_alpha_layer_ponytail
+    400024: hair_inner_bang
+    400026: hair_inner_layer_front
+    400028: hair_inner_layer_ponytail
+    400030: hair_inner_tips
+    400032: hair_sprays_front
+    400034: hair_sprays_ponytails
+    400036: hair_ties
+    400038: hair_ties_small_front
+    400040: hair_ties_small_ponytail
+    400042: head
+    400044: head_All
+    400046: //RootNode
+    400048: LittleGirl_polywink_iphonex_Little_girl
+    400050: ponytail
+    400052: Shirt
+    400054: shirt3
+    400056: sweater
+    400058: sweater5
+    400060: teeth
+    400062: teeth_tongue
+    400064: tongue
+    400066: Character1_Head
+    400068: Character1_Hips
+    400070: Character1_Jaw1
+    400072: Character1_JawTip
+    400074: Character1_LeftArm
+    400076: Character1_LeftShoulder
+    400078: Character1_Neck
+    400080: Character1_RightArm
+    400082: Character1_RightShoulder
+    400084: Character1_Spine
+    400086: Character1_Spine1
+    400088: Character1_Spine2
+    400090: group1
+    400092: LittleGirl
+    400094: PonyTail_Left
+    400096: PonyTail_Left1
+    400098: PonyTail_Left2
+    400100: PonyTail_Left3
+    400102: PonyTail_Left4
+    400104: PonyTail_Left5
+    400106: PonyTail_Left6
+    400108: PonyTail_Right
+    400110: PonyTail_Right1
+    400112: PonyTail_Right2
+    400114: PonyTail_Right3
+    400116: PonyTail_Right4
+    400118: PonyTail_Right5
+    400120: PonyTail_Right6
+    400122: Clothing
+    400124: shirt1
+    400126: Character1_EyeLeft
+    400128: Character1_EyeRight
+    400130: Character1_HeadAnchor
+    400132: Character1_LeftForeArm
+    400134: Character1_RightForeArm
+    400136: group2
+    400138: eyebrowBlends
+    400140: eyelashesBlends
+    400142: faceBlends
+    400144: teethBlends
+    400146: tongueBlends
+    400148: Character1_LeftFoot
+    400150: Character1_LeftHand
+    400152: Character1_LeftHand 1
+    400154: Character1_LeftHandIndex1
+    400156: Character1_LeftHandIndex1 1
+    400158: Character1_LeftHandIndex2
+    400160: Character1_LeftHandIndex2 1
+    400162: Character1_LeftHandIndex3
+    400164: Character1_LeftHandIndex3 1
+    400166: Character1_LeftHandIndex4
+    400168: Character1_LeftHandIndex4 1
+    400170: Character1_LeftHandMiddle1
+    400172: Character1_LeftHandMiddle1 1
+    400174: Character1_LeftHandMiddle2
+    400176: Character1_LeftHandMiddle2 1
+    400178: Character1_LeftHandMiddle3
+    400180: Character1_LeftHandMiddle3 1
+    400182: Character1_LeftHandMiddle4
+    400184: Character1_LeftHandMiddle4 1
+    400186: Character1_LeftHandPinky1
+    400188: Character1_LeftHandPinky1 1
+    400190: Character1_LeftHandPinky2
+    400192: Character1_LeftHandPinky2 1
+    400194: Character1_LeftHandPinky3
+    400196: Character1_LeftHandPinky3 1
+    400198: Character1_LeftHandPinky4
+    400200: Character1_LeftHandPinky4 1
+    400202: Character1_LeftHandRing1
+    400204: Character1_LeftHandRing1 1
+    400206: Character1_LeftHandRing2
+    400208: Character1_LeftHandRing2 1
+    400210: Character1_LeftHandRing3
+    400212: Character1_LeftHandRing3 1
+    400214: Character1_LeftHandRing4
+    400216: Character1_LeftHandRing4 1
+    400218: Character1_LeftHandThumb1
+    400220: Character1_LeftHandThumb1 1
+    400222: Character1_LeftHandThumb2
+    400224: Character1_LeftHandThumb2 1
+    400226: Character1_LeftHandThumb3
+    400228: Character1_LeftHandThumb3 1
+    400230: Character1_LeftHandThumb4
+    400232: Character1_LeftHandThumb4 1
+    400234: Character1_LeftLeg
+    400236: Character1_LeftToeBase
+    400238: Character1_LeftUpLeg
+    400240: Character1_RightFoot
+    400242: Character1_RightLeg
+    400244: Character1_RightToeBase
+    400246: Character1_RightUpLeg
+    400248: Little_Girl
+    400250: Character1_RightHand
+    400252: Character1_RightHandIndex1
+    400254: Character1_RightHandIndex2
+    400256: Character1_RightHandIndex3
+    400258: Character1_RightHandIndex4
+    400260: Character1_RightHandMiddle1
+    400262: Character1_RightHandMiddle2
+    400264: Character1_RightHandMiddle3
+    400266: Character1_RightHandMiddle4
+    400268: Character1_RightHandPinky1
+    400270: Character1_RightHandPinky2
+    400272: Character1_RightHandPinky3
+    400274: Character1_RightHandPinky4
+    400276: Character1_RightHandRing1
+    400278: Character1_RightHandRing2
+    400280: Character1_RightHandRing3
+    400282: Character1_RightHandRing4
+    400284: Character1_RightHandThumb1
+    400286: Character1_RightHandThumb2
+    400288: Character1_RightHandThumb3
+    400290: Character1_RightHandThumb4
+    400292: eye_L
+    400294: eyebrows_shapes
+    400296: eyelash_shapes
+    400298: head_shapes
+    400300: headBlends
+    2100000: button_initialShadingGroup4
+    2100002: button_blinn1SG4
+    2100004: shirt_initialShadingGroup4
+    2100006: borders
+    2100008: purl
+    2100010: details1
+    2100012: knit
+    2100014: details3
+    2100016: purl2
+    2100018: knit2
+    2100020: borders2
+    2100022: fur_orig_defaultMat3
+    2100024: Gumms
+    2100026: Eye_Inner
+    2100028: Eye_Outer
+    2100030: Eye_Brows
+    2100032: Eye_Lashes
+    2100034: Skin
+    2100036: Teeth
+    2100038: test_eye6
+    2100040: test_eyeoutter6
+    2100042: lashes
+    2100044: brows
+    2100046: blinn21
+    2100048: tongue1
+    2100050: teeth1
+    2100052: lambert23
+    2100054: lambert28
+    2100056: details7
+    2100058: blinn19
+    2100060: lambert27
+    2100062: initialShadingGroup4
+    2100064: little_girl_v002_topology_update2_tongue1
+    2100066: little_girl_v002_topology_update2_teeth1
+    2100068: lambert20
+    2100070: blinn18
+    2100072: blinn22
+    2100074: brows1
+    2100076: lashes1
+    2100078: tongue2
+    2100080: teeth2
+    2100082: tongue3
+    2100084: teeth3
+    2100086: tongue4
+    2100088: teeth4
+    2300000: balls
+    2300002: button1
+    2300004: eye_R
+    2300006: eyebrows
+    2300008: eyeL
+    2300010: eyelash
+    2300012: fur_orig1
+    2300014: hair_alpha_layer_front
+    2300016: hair_alpha_layer_ponytail
+    2300018: hair_inner_bang
+    2300020: hair_inner_layer_front
+    2300022: hair_inner_layer_ponytail
+    2300024: hair_inner_tips
+    2300026: hair_sprays_front
+    2300028: hair_sprays_ponytails
+    2300030: hair_ties
+    2300032: hair_ties_small_front
+    2300034: hair_ties_small_ponytail
+    2300036: head
+    2300038: shirt3
+    2300040: sweater
+    2300042: sweater5
+    2300044: teeth
+    2300046: tongue
+    2300048: shirt1
+    2300050: eye_L
+    3300000: balls
+    3300002: button1
+    3300004: eye_R
+    3300006: eyebrows
+    3300008: eyeL
+    3300010: eyelash
+    3300012: fur_orig1
+    3300014: hair_alpha_layer_front
+    3300016: hair_alpha_layer_ponytail
+    3300018: hair_inner_bang
+    3300020: hair_inner_layer_front
+    3300022: hair_inner_layer_ponytail
+    3300024: hair_inner_tips
+    3300026: hair_sprays_front
+    3300028: hair_sprays_ponytails
+    3300030: hair_ties
+    3300032: hair_ties_small_front
+    3300034: hair_ties_small_ponytail
+    3300036: head
+    3300038: shirt3
+    3300040: sweater
+    3300042: sweater5
+    3300044: teeth
+    3300046: tongue
+    3300048: shirt1
+    3300050: eye_L
+    4300000: button1
+    4300002: shirt3
+    4300004: sweater
+    4300006: balls
+    4300008: sweater5
+    4300010: fur_orig1
+    4300012: head_All
+    4300014: eye_R
+    4300016: eyeL
+    4300018: eyelash
+    4300020: eyebrows
+    4300022: head
+    4300024: teeth
+    4300026: tongue
+    4300028: hair_inner_bang
+    4300030: hair_sprays_front
+    4300032: hair_alpha_layer_front
+    4300034: hair_inner_layer_front
+    4300036: hair_ties_small_front
+    4300038: hair_inner_layer_ponytail
+    4300040: hair_sprays_ponytails
+    4300042: hair_ties_small_ponytail
+    4300044: hair_inner_tips
+    4300046: hair_alpha_layer_ponytail
+    4300048: hair_ties
+    4300050: shirt1
+    4300052: eye_L
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: head_All
+    13700002: balls
+    13700004: button1
+    13700006: eye_R
+    13700008: eyebrows
+    13700010: eyeL
+    13700012: eyelash
+    13700014: fur_orig1
+    13700016: hair_alpha_layer_front
+    13700018: hair_alpha_layer_ponytail
+    13700020: hair_inner_bang
+    13700022: hair_inner_layer_front
+    13700024: hair_inner_layer_ponytail
+    13700026: hair_inner_tips
+    13700028: hair_sprays_front
+    13700030: hair_sprays_ponytails
+    13700032: hair_ties
+    13700034: hair_ties_small_front
+    13700036: hair_ties_small_ponytail
+    13700038: head
+    13700040: shirt3
+    13700042: sweater
+    13700044: sweater5
+    13700046: teeth
+    13700048: tongue
+    13700050: shirt1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

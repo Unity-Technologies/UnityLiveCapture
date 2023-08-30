@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+	<uie:Toolbar class="connection-toolbar">
+        <ui:VisualElement name="indicator" class="connection-indicator" />
+        <ui:Label name="title" text="Connection" class="connection-title" />
+		<ui:Toggle name="toggle" class="connection-toggle" tooltip="Start/stop this connection." />
+		<uie:ToolbarMenu name="menu" class="connection-menu" />
+    </uie:Toolbar>
+</ui:UXML>

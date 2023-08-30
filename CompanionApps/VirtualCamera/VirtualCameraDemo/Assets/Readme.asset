@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier:
+  icon: {fileID: 2800000, guid: c3e403427e45b4e118c3f262c6b1b57d, type: 3}
+  title: Virtual Camera Demo
+  sections:
+  - heading: Getting started
+    text: "To get started with this sample project and benefit from tutorials to
+      guide you through the features of the Virtual Camera and Face Capture apps, see:"
+    linkText: Unity Live Capture Startup Guide
+    url: http://34.95.39.199/unity-live-capture-startup-guide@0.0
+  - heading:
+    text: "(Access: username = unity / password = unity)"
+    linkText:
+    url:
+  - heading: Preparing the sample project
+    text: "To use this sample project with the apps, you minimally need to open the following:
+      \n• VirtualCameraDemo scene (in the Scenes folder).
+      \n• Timeline window (Window > Sequencing > Timeline).
+      \n• Live Capture window (Window > Live Capture).
+      \n\nSee the Startup Guide for more details."
+    linkText:
+    url:
+  - heading: Solving connection issues
+    text: "If you are not able to connect the apps with your Unity Editor, you might
+      need to perform some network and firewall configurations. The Startup Guide
+      gives all the instructions to help you achieve this."
+    linkText:
+    url:
+  - heading: Providing feedback
+    text: "Your feedback is essential! To address your questions, use the dedicated
+      Google Group: cinematics-beta@unity3d.com.
+      \nThe most valuable feedback format to send us is a recording of yourself using
+      the apps with voice over."
+    linkText:
+    url:
+  - heading: The Live Capture package
+    text: "For more information on the Live Capture package, the Virtual Camera app
+      and the Face Capture app, see:"
+    linkText: Live Capture package documentation (beta)
+    url: http://34.95.39.199/com.unity.live-capture@0.3
+  loadedLayout: 1

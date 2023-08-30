@@ -1,0 +1,320 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "d640f182-c06e-481a-8438-2237c7b5edcf",
+            "actions": [
+                {
+                    "name": "Move Right",
+                    "type": "Value",
+                    "id": "babd0c24-fdeb-4a93-bea7-7a796882e63a",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Left",
+                    "type": "Value",
+                    "id": "8f8bccb1-33ae-49e7-a77c-0c2a3c38d6c7",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Fast Forward",
+                    "type": "Value",
+                    "id": "2f778cb8-9dbc-4719-90bf-5fe74c6440e9",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rewind",
+                    "type": "Value",
+                    "id": "f41b052a-21cd-43fc-94c1-5bd34d84f2ce",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Reset Pose",
+                    "type": "Value",
+                    "id": "33e3965f-58b8-4dab-ad70-d52b4a1525bd",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Reset Lens",
+                    "type": "Value",
+                    "id": "cad14cab-cbbc-4df6-b532-ec66ce946fbc",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ToggleRecording",
+                    "type": "Value",
+                    "id": "648a1b93-7f14-4eda-b452-e19a5a8e5235",
+                    "expectedControlType": "Analog",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier Custom",
+                    "id": "c110273a-7cd9-4bfb-815e-4a98ae022f61",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Right",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9b3d26f6-0afe-4e97-98a6-bb0aedd5d89e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Right",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "6073d9d7-8561-468c-894a-8e738c388b5d",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Right",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "5445a948-a4e7-442c-baa5-21081543f7f8",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Left",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "e1417a4f-d70b-402b-bab0-672e839e1f81",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Left",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "860ac9c2-773d-4449-b118-7027eee3385f",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Left",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "55987ffb-c661-4769-8d51-d54906be3c16",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fast Forward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "ee748388-f8e8-4038-8573-e1226ae412d9",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fast Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "83290bfb-1d93-4a74-bbe9-3f82891b3f17",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fast Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "027318dd-9a0c-479a-aac4-9fdfd7450e37",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "995aee51-3f2a-483b-ab77-eb5f2c9761cb",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "f50c1a01-133e-4e76-835c-af65a3b0b730",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "5ec43b4f-f855-415c-bce3-9995a07431be",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleRecording",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "32e8d71c-7a93-4324-9763-ad5b9e63cb47",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleRecording",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "f1a7b62e-0e6b-481a-9709-4653acb73ae6",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleRecording",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "bcd02491-b5f3-493e-8274-a207f4ce2a75",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pose",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "737f7d05-09ad-475a-9926-3378f472f48a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "8e5ed47b-62dd-4bcf-a89c-7b945f040352",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier Custom",
+                    "id": "40b20f55-d657-44af-80dd-96366b910d27",
+                    "path": "OneModifierCustom",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Lens",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "c4b6f0e6-73f1-4a0e-adb8-cc68efe3fc13",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Lens",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "9864fe81-9112-487b-a9ae-b6471c823bac",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Lens",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

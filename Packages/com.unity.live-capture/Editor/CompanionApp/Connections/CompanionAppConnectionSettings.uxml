@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement class="indent-content space-content">
+        <uie:PropertyField binding-path="m_AutoStartOnPlay" name="auto-start-on-play" />
+        <uie:PropertyField binding-path="m_Port" name="port" />
+        <ui:HelpBox name="port-warning" message-type="Warning" />
+        <ui:Foldout text="Available Interfaces" class="interfaces-foldout" tooltip="Available IP addresses on this machine.">
+            <ui:VisualElement name="interfaces" class="spaced-list" />
+        </ui:Foldout>
+
+        <ui:HelpBox name="public-warning" message-type="Warning">
+            <ui:VisualElement class="help-box-container">
+                <ui:Label text="Connection might not succeed over a public network." class="help-box-text" />
+                <ui:VisualElement class="help-box-menu">
+                    <ui:Button name="public-warning-info" text="Learn More" class="help-box-button" />
+                    <ui:Button name="public-warning-dismiss" text="Dismiss" class="help-box-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:HelpBox>
+    </ui:VisualElement>
+</ui:UXML>

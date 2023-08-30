@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:Toolbar>
+        <ui:IMGUIContainer name="toolbar" style="flex-grow: 1; flex-basis: 1px; flex-shrink: 0; min-width: 75px;" />
+        <ui:IMGUIContainer name="play-controls" style="flex-grow: 0; flex-shrink: 0; width: 78px;" />
+        <ui:IMGUIContainer name="record-controls" style="flex-grow: 1; flex-basis: 1px; flex-shrink: 0; min-width: 75px;">
+            <ui:VisualElement name="live-icon" picking-mode="Ignore" class="Icon-Live" style="display: none; visibility: hidden;" />
+        </ui:IMGUIContainer>
+    </uie:Toolbar>
+    <ui:TwoPaneSplitView name="h-split-view" view-data-key="h-split-view" fixed-pane-index="1" fixed-pane-initial-dimension="300" style="flex-grow: 1;">
+        <ui:VisualElement name="left-panel" style="min-width: 100;">
+            <ui:TwoPaneSplitView name="v-split-view" view-data-key="v-split-view" fixed-pane-index="1" fixed-pane-initial-dimension="300" orientation="Vertical">
+                <ui:VisualElement name="top-panel" style="min-height: 100;">
+                    <ui:IMGUIContainer name="hierarchy" style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bottom-panel" style="min-height: 100;">
+                    <uie:Toolbar>
+                        <uie:ToolbarMenu name="create-device" text="+" tooltip="Create a Capture Device." class="add-menu" />
+                        <ui:Label text="Capture Devices" style="flex-grow: 1; -unity-text-align: middle-left; padding-left: 4px; padding-right: 4px;" />
+                    </uie:Toolbar>
+                    <ui:IMGUIContainer name="device-list" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:TwoPaneSplitView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="min-width: 100;">
+            <ui:IMGUIContainer name="inspector" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:TwoPaneSplitView>
+    <ui:VisualElement style="flex-grow: 0; flex-shrink: 0;">
+        <uie:Toolbar>
+            <ui:IMGUIContainer name="footer" style="flex-grow: 1;" />
+        </uie:Toolbar>
+    </ui:VisualElement>
+    <ui:VisualElement name="red-tint" picking-mode="Ignore" style="flex-grow: 1; background-color: rgb(211, 34, 34); position: absolute; left: 0; top: 21px; right: 0; bottom: 0; opacity: 0.2; visibility: hidden;" />
+</ui:UXML>

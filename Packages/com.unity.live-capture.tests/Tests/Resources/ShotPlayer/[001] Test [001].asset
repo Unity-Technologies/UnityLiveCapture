@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1347261018686533156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21dcc2386d650c4597f3633c75a1f98, type: 3}
+  m_Name: Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 6973215776207432767}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  m_InfiniteClipPreExtrapolation: 0
+  m_InfiniteClipPostExtrapolation: 0
+  m_InfiniteClipOffsetPosition: {x: 0, y: 0, z: 0}
+  m_InfiniteClipOffsetEulerAngles: {x: 0, y: 0, z: 0}
+  m_InfiniteClipTimeOffset: 0
+  m_InfiniteClipRemoveOffset: 0
+  m_InfiniteClipApplyFootIK: 1
+  mInfiniteClipLoop: 0
+  m_MatchTargetFields: 63
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_AvatarMask: {fileID: 0}
+  m_ApplyAvatarMask: 1
+  m_TrackOffset: 0
+  m_InfiniteClip: {fileID: 0}
+  m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ApplyOffsets: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af66da441399ac14386d6435579ad7f6, type: 3}
+  m_Name: '[001] Test [001]'
+  m_EditorClassIdentifier: 
+  m_SceneNumber: 1
+  m_ShotName: Test
+  m_TakeNumber: 1
+  m_CreationTime: -8585274617557433688
+  m_Description: 
+  m_Rating: 0
+  m_FrameRate:
+    m_Numerator: 24
+    m_Denominator: 1
+    m_IsDropFrame: 0
+  m_Duration: 5.199999999999
+  m_StartTimecode:
+    m_IsDropFrame: 0
+    m_Hours: 17
+    m_Minutes: 18
+    m_Seconds: 44
+    m_Frames: 10
+    m_Subframe:
+      m_Subframe: 17496
+      m_Resolution: 51200
+  m_Screenshot: {fileID: 2800000, guid: 32fb68fd153844c35ac27b1f186d2924, type: 3}
+  m_Timeline: {fileID: 6973215776207432767}
+  m_Bindings: []
+  m_Entries:
+  - m_Track: {fileID: -1347261018686533156}
+    m_Binding:
+      rid: 7987157474435923977
+  m_MetadataEntries:
+  - m_Track: {fileID: -1347261018686533156}
+    m_Metadata:
+      rid: 7987157474435923978
+  references:
+    version: 2
+    RefIds:
+    - rid: 7987157474435923977
+      type: {class: AnimatorTakeBinding, ns: Unity.LiveCapture, asm: Unity.LiveCapture}
+      data:
+        m_ExposedReference:
+          exposedName: Virtual Camera Actor
+          defaultValue: {fileID: 0}
+    - rid: 7987157474435923978
+      type: {class: VirtualCameraTrackMetadata, ns: Unity.LiveCapture.VirtualCamera,
+        asm: Unity.LiveCapture.VirtualCamera}
+      data:
+        m_Channels: 31
+        m_Lens:
+          m_FocalLength: 36
+          m_FocusDistance: 1
+          m_Aperture: 5.6
+        m_CameraBody:
+          m_SensorSize: {x: 24.89, y: 18.66}
+          m_Iso: 200
+          m_ShutterSpeed: 0.005
+        m_LensAsset: {fileID: 5177688891170823328, guid: 0736b5832a28f0b43aa4705f8d840e01,
+          type: 2}
+        m_CropAspect: 1.77
+--- !u!114 &6973215776207432767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: '[001] Test [001]'
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -1347261018686533156}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 24
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}

@@ -1,0 +1,4 @@
+*Release/
+*Debug/
+MacOSEncoderBundle/MacOSEncoderBundle.xcodeproj/xcuserdata/*
+MacOSEncoderBundle/MacOSEncoderBundle.xcodeproj/project.xcworkspace/xcuserdata/*/

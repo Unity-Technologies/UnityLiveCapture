@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ConnectionPanes" src="project://database/Packages/com.unity.live-capture/Editor/Core/Connections/ConnectionPanes.uxml?fileID=9197481963319205126&amp;guid=a6622943ea02a174a93b4f92b7cac5a9&amp;type=3#ConnectionPanes" />
+    <ui:VisualElement name="firewall-section">
+        <ui:HelpBox name="firewall-warning" message-type="Warning" text="The firewall is not configured optimally for Live Capture. You may experience difficulty connecting devices to Unity." />
+        <ui:Button name="firewall-button" text="Configure Firewall" class="large-button" tooltip="Add rules to the firewall that enable Unity to receive connections on private or work networks." />
+    </ui:VisualElement>
+    <uie:Toolbar>
+        <uie:ToolbarMenu name="add-connection" text="+" class="add-menu" tooltip="Create a Connection used to communicate with external devices." />
+    </uie:Toolbar>
+    <ui:Instance template="ConnectionPanes" name="split-vertical" class="split-container">
+        <AttributeOverrides element-name="split-view" orientation="vertical" />
+    </ui:Instance>
+    <ui:Instance template="ConnectionPanes" name="split-horizontal" class="split-container">
+        <AttributeOverrides element-name="split-view" orientation="horizontal" />
+    </ui:Instance>
+</ui:UXML>

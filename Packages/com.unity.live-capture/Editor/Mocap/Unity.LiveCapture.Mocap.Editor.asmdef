@@ -1,0 +1,20 @@
+{
+    "name": "Unity.LiveCapture.Mocap.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2c1c08a165ef1418a9b6f6933f46036e",
+        "GUID:f5b02b890db5fae44882ddbb235a0128",
+        "GUID:95419eedfe2e6c74dab3e84fcd6aa25c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

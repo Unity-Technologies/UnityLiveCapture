@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a783c29954101a14899aca0c4149ee5e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ToolbarUxml: {fileID: 9197481963319205126, guid: 5c6ca7fd1ce40cb4c9ea3937dde7f896,
+      type: 3}
+  - m_InfoUxml: {fileID: 9197481963319205126, guid: 16f118c646b024a449c9416b295caf83,
+      type: 3}
+  - m_ClientListElementUxml: {fileID: 9197481963319205126, guid: 28e5dcbacc601ca47b7c8e49a49032bb,
+      type: 3}
+  - m_SettingsUxml: {fileID: 9197481963319205126, guid: b6266d9f32f52b54a986df35f0cb1585,
+      type: 3}
+  - m_Stylesheet: {fileID: 7433441132597879392, guid: c2f2f6f2e2136c547a764f4f10534d0b,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

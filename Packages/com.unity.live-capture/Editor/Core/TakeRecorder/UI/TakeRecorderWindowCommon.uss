@@ -1,0 +1,44 @@
+.add-menu {
+	border-width: 0px;
+    min-width: 36px;
+}
+
+.add-menu > .unity-text-element {
+    padding-top: 0;
+    margin-top: -4px;
+    padding-left: 0;
+    font-size: 26px;
+}
+
+.Icon-Playrange {
+    /* GUIStyle.alignment */
+    --unity-text-align: middle-center;
+
+    /* GUIStyle.clipping */
+    --unity-clipping: clip;
+
+    /* GUIStyle.fixedHeight */
+    height: 25px;
+
+    /* GUIStyle.fixedWidth */
+    width: 6px;
+
+    /* GUIStyle.fontSize */
+    font-size: 72px;
+
+    /* GUIStyle.imagePosition */
+    --unity-image-position: image-only;
+
+    /* GUIStyle.name */
+    --unity-name: "Icon.Playrange";
+
+    /* GUIStyle.richText */
+    --unity-rich-text: false;
+
+    /* GUIStyle.stretchWidth */
+    --unity-stretch-width: false;
+}
+
+.Icon-Live {
+    background-image: resource('Packages/com.unity.live-capture/Editor/Core/Icons/Live@64.png');
+}

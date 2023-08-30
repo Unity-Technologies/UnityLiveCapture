@@ -1,0 +1,38 @@
+{
+    "name": "Unity.CompanionAppCommon.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:95419eedfe2e6c74dab3e84fcd6aa25c",
+        "GUID:defa38a7343761140939d6c32f6a4fc5",
+        "GUID:b32f3e0d77af2e848a0a1765b090deb7",
+        "GUID:f620b241ece4c3d44b4b300894716741",
+        "GUID:59872e6d1986f47378e2eb29e5881d70",
+        "GUID:3c635070a30454e78867fdcc8150cbd3",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:ba171b3dd2a51234ab864770f99741a5",
+        "GUID:49fede9355492427f852ef03bae5250e",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:dfd0ce20189d48e5b22bb4134b558f5a",
+        "GUID:6a539ac6c932246bd946aa409b684bb2",
+        "GUID:9882490b833a44a49857861b03954ab1",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

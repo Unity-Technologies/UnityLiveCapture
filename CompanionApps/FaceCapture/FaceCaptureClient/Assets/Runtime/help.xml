@@ -1,0 +1,19 @@
+<help>
+    <tooltips>
+        <tooltip id="Settings">
+            <title>Settings</title>
+            <content>
+                <![CDATA[Opens the settings window to configure connection, face visualizer, recording options, etc.]]></content>
+        </tooltip>
+        <tooltip id="Takes">
+            <title>Takes</title>
+            <content>
+                <![CDATA[How many takes have you recorded.]]></content>
+        </tooltip>
+        <tooltip id="Tracking">
+            <title>Face Detection</title>
+            <content>
+                <![CDATA[Displays the current face capture status. If face is out of view or undetected, it will turn red.]]></content>
+        </tooltip>
+    </tooltips>
+</help>

@@ -1,0 +1,5 @@
+[**/Samples/**.asmdef]
+scrape_api = false
+
+[*.Samples.asmdef]
+scrape_api = false

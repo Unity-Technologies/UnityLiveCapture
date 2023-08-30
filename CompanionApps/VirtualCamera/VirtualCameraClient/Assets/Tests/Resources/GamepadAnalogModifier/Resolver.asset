@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11aec9e73f42f842a403f24db7666ad, type: 3}
+  m_Name: Resolver
+  m_EditorClassIdentifier: Unity.VirtualCameraClient.Runtime:Unity.CompanionApps.VirtualCamera:ActionToControl
+  m_Bindings:
+  - m_InputAction: {fileID: 5917572246725037315, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 25
+  - m_InputAction: {fileID: -3803318257202489881, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 3
+  - m_InputAction: {fileID: -8220531606452176601, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 2
+  - m_InputAction: {fileID: -1302425393995020073, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 13
+  - m_InputAction: {fileID: -314373462571570576, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 12
+  - m_InputAction: {fileID: -5491156603833288754, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 26
+  - m_InputAction: {fileID: -4408458509599862651, guid: f69917248b0653c40bbcef322d019333,
+      type: 3}
+    m_ActionID: 23
