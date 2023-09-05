@@ -1,0 +1,14 @@
+generate_documentation:
+  name : Generate documentation for Live Capture
+  agent:
+    type: Unity::VM::osx
+    image: package-ci/macos-12:v4
+    flavor: m1.mac
+  commands:
+    - brick_source: git@github.cds.internal.unity3d.com:wind-xu/virtual_production_doc_generation.git@v0.3.0
+      variables:
+        EDITOR_VERSION: trunk
+        PACKAGE_NAME: com.unity.live-capture
+        PACKAGE_PATH: Packages/com.unity.live-capture
+        #Treat doc build warnings as errors
+        WARNINGS_AS_ERRORS: false
