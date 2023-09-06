@@ -1068,7 +1068,9 @@ namespace Unity.LiveCapture.VirtualCamera
             }
         }
 
-        /// <inheritdoc/>
+        /// <summary>
+        /// The device calls this method when a new recording started.
+        /// </summary>
         protected override void OnStartRecording()
         {
             base.OnStartRecording();

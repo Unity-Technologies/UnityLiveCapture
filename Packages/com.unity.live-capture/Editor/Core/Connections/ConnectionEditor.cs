@@ -108,7 +108,7 @@ namespace Unity.LiveCapture.Editor
         }
 
         /// <summary>
-        /// Called when the Connection referenced by <see cref="Editor.target"/> is modified.
+        /// Called when the Connection referenced by <see cref="UnityEditor.Editor.target"/> is modified.
         /// Override this function to update UI data based on the Connection.
         /// </summary>
         protected internal virtual void OnConnectionChanged()
