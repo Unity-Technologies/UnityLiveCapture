@@ -20,7 +20,7 @@ namespace Unity.LiveCapture.Networking
         /// Get the online IPv4 addresses from all network interfaces in the system.
         /// </summary>
         /// <param name="includeLoopback">Include any addresses on the loopback interface.</param>
-        /// <returns>A new array containing the available pairs of IP address and the <see cref="NetworkInterface"/> that it belongs to.</returns>
+        /// <returns>A new array containing the available pairs of IP address and the <see cref="T:System.Net.NetworkInformation.NetworkInterface"/> that it belongs to.</returns>
         public static (IPAddress IP, NetworkInterface Interface)[] GetIPInterfaces(bool includeLoopback)
         {
             var addresses = new List<(IPAddress, NetworkInterface)>();

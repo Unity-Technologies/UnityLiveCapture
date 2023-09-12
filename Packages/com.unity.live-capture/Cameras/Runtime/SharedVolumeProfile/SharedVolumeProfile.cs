@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 namespace Unity.LiveCapture.Cameras
 {
     /// <summary>
-    /// A component that manages an instance of <see cref="VolumeProfile"/>.
+    /// A component that manages an instance of <see cref="T:UnityEngine.Rendering.VolumeProfile"/>.
     /// </summary>
     /// <remarks>
     /// This component guarantees that the profile instance is unique and that the GameObject 
