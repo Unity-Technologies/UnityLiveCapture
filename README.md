@@ -1,14 +1,27 @@
-# About
+# Live Capture in Unity Editor
 
-This is an internal container repository for all in-development packages, tests, and demo projects pertaining to Live Capture.
+With Unity Live Capture package (`com.unity.live-capture`), you can capture and record animations from multiple physical devices and record 
+them in the Unity Editor to animate characters and cameras.    
 
-**This repository is not to be shared externally. External users need to have signed an access agreement before accessing any non-public files**
+This includes the Live Capture Companion Apps that you can install on your iOS device to capture animations from your device’s camera and sensors.
 
-This repository uses [Git LFS](https://git-lfs.github.com/), so large files and some binary files like icons are unfortunately not included in the "Download ZIP" option on Github.
+This repository contains  all in-development packages applications, tests, and demo projects to enable Live Capture in Unity Editor.
 
-<a name="Contents"></a>
-## Contents
-### Packages
+# Get started
+
+## Documentation
+
+The documentation for the latest external release can be found **[here](https://docs.unity3d.com/Packages/com.unity.live-capture@3.0/manual/index.html)**.
+
+## Contributing
+Read our [contribution and maintenance guidelines](CONTRIBUTING.md).
+
+## Licensing
+
+The Live Capture packages and companion apps are licensed under the [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).
+
+## Contents of the repository
+### Live Capture Package
 - **[Live Capture](Packages/com.unity.live-capture/README.md)**
 
 ### Companion App projects
@@ -40,7 +53,9 @@ The following projects are used for manual testing:
 | URPTests                 | Runs the pipelines tests with URP installed. |
 | URPWithCinemachineTests  | Runs the pipelines tests with URP and the Cinemachine package installed.|
 
-<a name="Installation"></a>
+
+# Technical annexes
+
 ## Installation
 This repository uses [Git LFS](https://git-lfs.github.com/) so make sure you have LFS installed to get all the files. Unfortunately this means that the large files are also not included in the "Download ZIP" option on Github.
 
@@ -48,38 +63,6 @@ Both iOS apps are also uploaded on a daily basis to Test Flight. To be added as 
 
 You can also install the latest release from the App Store.
 
-## Contributing
-Read the [Versioning and Changelog Guidelines](https://docs.google.com/document/d/1TEkXz3i3J5QNk3KUALfhf4uP-1B9gaB6zJIJsTAx0cI/edit?usp=sharing).
-
-## Documentation
-
-- The documentation for the latest external release can be found **[here](https://docs.unity3d.com/Packages/com.unity.live-capture@3.0/manual/index.html)**.
-
 ## Architecture
 
 ![image](https://user-images.githubusercontent.com/6132575/236289177-ff7d87aa-e3e5-4f8e-ab6d-2a7488078319.png)
-
-## App Deployment
-See our internal documentation on [Unity Cloud Build and TestFlight deployment](https://docs.google.com/document/d/1TtsGuDZg9TgFeF32iUdb64ulPGDsUV4Lb572PiVwyIA/edit?usp=sharing)
-
-## Branching Strategy
-### [develop]
-The main branch where the source code always reflects a state with the latest delivered development changes for the next release, also known as the “integration branch”.
-
-Branch from `main` to implement any enhancements or documentation updates, etc. If fixing a bug, branch of the tagged version with the bug and then make sure to port the fix to `main`.
-
-### [publish]
-Publish branches are the release branches. We use them to publish major, minor and patch releases. They are prefixed with the package name
-
-Example:
-
-- live-capture/2.0/staging
-- live-capture/2.0/release
-
-The 1.0/staging and 1.0/release branches are an exception to the naming convention and used for the live-capture 1.1.X releases.
-
-Beta releases are under beta-release. For example:
-
-beta-release/202208
-
-We run the release-zip yamato job on this branch and the distribute zip file artifact. 
