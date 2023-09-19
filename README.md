@@ -20,7 +20,7 @@ Read our [contribution and maintenance guidelines](CONTRIBUTING.md).
 The Live Capture packages and companion apps are licensed under the [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).
 
 ## Contents of the repository
-### Live Capture Package
+### Live Capture Packages
 - **[Live Capture](Packages/com.unity.live-capture/README.md)**
 
 ### Companion App projects
@@ -30,6 +30,14 @@ The following projects are used to build and deploy the companion apps.
 - **[Virtual Camera Client](https://apps.apple.com/us/app/unity-virtual-camera/id1478175507)** -- project used to develop and deploy the Unity Virtual Camera App.
 - **[Face Capture Client](https://apps.apple.com/app/id1544159771)** -- project used to develop and deploy the Unity Face Capture App.
 
+### Companion App related packages
+
+The following internal packages completes the Companion apps in the Unity Editor:
+- **[com.unity.live-capture.cinematic-companion-app-core](InternalPackages/com.unity.live-capture.cinematic-companion-app-core)**: Core package for the Cinematic Companion App. Used for both the Virtual Camera and the Face Capture app.
+- **[com.unity.live-capture.tentacle](InternalPackages/com.unity.live-capture.tentacle)**: Adds support for the Tentacle timecode sources.
+- **[com.unity.touch-framework](InternalPackages/com.unity.touch-framework)**: Foundation for building touch applications using Unity's in-development Touch Framework.
+- **[com.unity.video-streaming.client](InternalPackages/com.unity.video-streaming.client)**: Adds support for receiving and decoding a video stream over RTSP..
+
 ### Sample projects
 The following projects are used for manual testing:
 
@@ -38,19 +46,21 @@ The following projects are used for manual testing:
 
 ### Test packages
 
-- com.unity.live-capture.tests
-- com.unity.live-capture.pipelines.tests
+- [com.unity.live-capture.tests](Packages/com.unity.live-capture.tests)
+- [com.unity.live-capture.hdrp.tests](Packages/com.unity.live-capture.hdrp.tests)
+- [com.unity.live-capture.pipelines.tests](Packages/com.unity.live-capture.pipelines.tests)
 
 ### Test projects
 
-| Project                  | Description |
-| ------------------------ | ----------- |
-| HDRPAndURPTests          | Runs the pipelines tests with HDRP and URP installed.|
-| HDRPTests                | Runs the pipelines tests with HDRP and URP installed. |
-| HDRPWithCinemachineTests | Runs the pipelines tests with HDRP and the Cinemachine package installed. |
-| PkgTests                 | Runs a subset of tests that are not dependent on a render pipeline (the one in com.unity.live-capture.tests. |
-| URPTests                 | Runs the pipelines tests with URP installed. |
-| URPWithCinemachineTests  | Runs the pipelines tests with URP and the Cinemachine package installed.|
+| Project                                                                   | Description                                                                                                    |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| [HDRPAndURPTests](TestProjects/HDRPAndURPTests)                           | Runs the pipelines tests with HDRP and URP installed.                                                          |
+| [HDRPTests](TestProjects/HDRPTestsLatest)                                 | Runs the pipelines tests with HDRP and URP installed.                                                          |
+| [HDRPWithCinemachineTests](TestProjects/HDRPWithCinemachineTests)         | Runs the pipelines tests with HDRP and the Cinemachine package installed.                                      |
+| [LiveCaptureGraphicsTestsHDRP](TestProjects/LiveCaptureGraphicsTestsHDRP) | Runs the graphics tests for Live Capture with HDRP package installed.                                          |
+| [PkgTests](TestProjects/PkgTests)                                         | Runs a subset of tests that are not dependent on a render pipeline (the ones in com.unity.live-capture.tests). |
+| [URPTests](TestProjects/URPTests)                                         | Runs the pipelines tests with URP installed.                                                                   |
+| [URPWithCinemachineTests](TestProjects/URPWithCinemachineTests)           | Runs the pipelines tests with URP and the Cinemachine package installed.                                       |
 
 
 # Appendix - Technical info
