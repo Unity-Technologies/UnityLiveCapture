@@ -1,9 +1,8 @@
 # Live Capture in Unity Editor
 
-With Unity Live Capture package (`com.unity.live-capture`), you can capture and record animations from multiple physical devices and record 
-them in the Unity Editor to animate characters and cameras.    
+With the Unity Live Capture package (`com.unity.live-capture`), you can capture animations from multiple physical devices and record them in the Unity Editor to animate characters and cameras.
 
-This includes the Live Capture Companion Apps that you can install on your iOS device to capture animations from your device’s camera and sensors.
+The Unity Live Capture ecosystem includes companion apps ([Virtual Camera](https://apps.apple.com/us/app/unity-virtual-camera/id1478175507) and [Face Capture](https://apps.apple.com/us/app/unity-face-capture/id1544159771)) that you can install for free on your iOS device to capture animations from your device’s camera and sensors.
 
 This repository contains  all in-development packages applications, tests, and demo projects to enable Live Capture in Unity Editor.
 
@@ -11,7 +10,7 @@ This repository contains  all in-development packages applications, tests, and d
 
 ## Documentation
 
-The documentation for the latest external release can be found **[here](https://docs.unity3d.com/Packages/com.unity.live-capture@3.0/manual/index.html)**.
+Read the [Live Capture package documentation](https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/index.html) from the latest external release.
 
 ## Contributing
 Read our [contribution and maintenance guidelines](CONTRIBUTING.md).
@@ -54,7 +53,7 @@ The following projects are used for manual testing:
 | URPWithCinemachineTests  | Runs the pipelines tests with URP and the Cinemachine package installed.|
 
 
-# Technical annexes
+# Appendix - Technical info
 
 ## Installation
 This repository uses [Git LFS](https://git-lfs.github.com/) so make sure you have LFS installed to get all the files. Unfortunately this means that the large files are also not included in the "Download ZIP" option on Github.
