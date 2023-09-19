@@ -36,7 +36,8 @@ The following internal packages completes the Companion apps in the Unity Editor
 - **[com.unity.live-capture.cinematic-companion-app-core](InternalPackages/com.unity.live-capture.cinematic-companion-app-core)**: Core package for the Cinematic Companion App. Used for both the Virtual Camera and the Face Capture app.
 - **[com.unity.live-capture.tentacle](InternalPackages/com.unity.live-capture.tentacle)**: Adds support for the Tentacle timecode sources.
 - **[com.unity.touch-framework](InternalPackages/com.unity.touch-framework)**: Foundation for building touch applications using Unity's in-development Touch Framework.
-- **[com.unity.video-streaming.client](InternalPackages/com.unity.video-streaming.client)**: Adds support for receiving and decoding a video stream over RTSP..
+- **[com.unity.video-streaming.client](InternalPackages/com.unity.video-streaming.client)**: Adds support for receiving and decoding a video stream over RTSP.
+- **[com.unity.zenject](InternalPackages/com.unity.zenject)**: Dependency injection framework used by the Virtual Camera companion apps.
 
 ### Sample projects
 The following projects are used for manual testing:
