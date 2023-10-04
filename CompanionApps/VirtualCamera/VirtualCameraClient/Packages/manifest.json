@@ -10,7 +10,6 @@
     "com.unity.inputsystem": "1.4.4",
     "com.unity.live-capture": "file:../../../../Packages/com.unity.live-capture",
     "com.unity.live-capture.cinematic-companion-app-core": "file:../../../../InternalPackages/com.unity.live-capture.cinematic-companion-app-core",
-    "com.unity.live-capture.tentacle": "file:../../../../InternalPackages/com.unity.live-capture.tentacle",
     "com.unity.live-capture.video-streaming.client": "file:../../../../InternalPackages/com.unity.video-streaming.client",
     "com.unity.test-framework": "1.1.33",
     "com.unity.touch-framework": "file:../../../../InternalPackages/com.unity.touch-framework",
