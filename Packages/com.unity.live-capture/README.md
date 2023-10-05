@@ -6,3 +6,7 @@ Use the Live Capture package to:
 * Genlock and synchronize all connected devices to get frame and timecode accuracy across the captured dataset.
 
 See the [package documentation](https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/index.html) for more details.
+
+## Architecture
+
+![image](https://user-images.githubusercontent.com/6132575/236289177-ff7d87aa-e3e5-4f8e-ab6d-2a7488078319.png)
