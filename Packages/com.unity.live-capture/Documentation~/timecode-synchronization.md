@@ -31,12 +31,7 @@ The Timecode Synchronizer is [a tool in the Unity Editor](#timecode-synchronizer
 
 ## Supported timecode sources
 
-The Live Capture package and companion apps currently support a limited set of timecode source hardware:
-
-* The Unity Virtual Camera and Unity Face Capture apps only support the [Tentacle Sync](https://tentaclesync.com/sync-e) timecode generator.
-* The Timecode Synchronizer in Unity Editor supports [Linear Time Code (LTC)](https://en.wikipedia.org/wiki/Linear_timecode) and [Network Time Protocol (NTP)](https://en.wikipedia.org/wiki/Network_Time_Protocol) as timecode input.
-
-**Note:** Tentacle Sync devices usually support LTC input, which allows you to get a functional [timecode synchronization setup](timecode-synchronization-getting-started.md) despite these current limitations.
+The Live Capture package and companion apps currently support the Timecode Synchronizer in Unity Editor supports [Linear Time Code (LTC)](https://en.wikipedia.org/wiki/Linear_timecode) and [Network Time Protocol (NTP)](https://en.wikipedia.org/wiki/Network_Time_Protocol) as timecode input.
 
 Additionally, the Live Capture package provides a means to use the Unity Editor workstation system clock as the timecode source. However, you should only use it for testing purposes, as it might provide inaccurate results if you use it for synchronization purposes.
 
