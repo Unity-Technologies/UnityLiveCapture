@@ -1,4 +1,4 @@
-# Live Capture in Unity Editor
+# Live Capture with the Unity Editor
 
 With the Unity Live Capture package (`com.unity.live-capture`), you can capture animations from multiple physical devices and record them in the Unity Editor to animate characters and cameras.
 
@@ -8,19 +8,20 @@ This repository contains  all in-development packages applications, tests, and d
 
 # Get started
 
-## Documentation
+## Learn about Live Capture
 
-Read the [Live Capture package documentation](https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/index.html) from the latest external release.
+To learn about the Live Capture package concepts, features, and workflows, read the [Live Capture package documentation](https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/index.html) from the latest external release.
 
-## Contributing
-Read our [contribution and maintenance guidelines](CONTRIBUTING.md).
+## Contribute to Live Capture
+
+To contribute to the Unity Live Capture ecosystem improvement effort in this repository, read our [contribution and maintenance guidelines](CONTRIBUTING.md).
 
 ## Licensing
 
 The Live Capture packages and companion apps are licensed under the [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).
 
 ## Contents of the repository
-### Live Capture Packages
+### Live Capture package
 - **[Live Capture](Packages/com.unity.live-capture/README.md)**
 
 ### Companion App projects
