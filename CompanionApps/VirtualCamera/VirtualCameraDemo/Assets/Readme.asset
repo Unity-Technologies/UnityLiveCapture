@@ -16,38 +16,32 @@ MonoBehaviour:
   title: Virtual Camera Demo
   sections:
   - heading: Getting started
-    text: "To get started with this sample project and benefit from tutorials to
-      guide you through the features of the Virtual Camera and Face Capture apps, see:"
-    linkText: Unity Live Capture Startup Guide
-    url: http://34.95.39.199/unity-live-capture-startup-guide@0.0
-  - heading:
-    text: "(Access: username = unity / password = unity)"
-    linkText:
-    url:
+    text: "To get started with this sample project and learn how to use the features
+      of the Unity Virtual Camera app, see:"
+    linkText: Unity Virtual Camera documentation
+    url: https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/virtual-camera.html
   - heading: Preparing the sample project
     text: "To use this sample project with the apps, you minimally need to open the following:
       \n• VirtualCameraDemo scene (in the Scenes folder).
       \n• Timeline window (Window > Sequencing > Timeline).
-      \n• Live Capture window (Window > Live Capture).
-      \n\nSee the Startup Guide for more details."
+      \n• Take Recorder window (Window > Live Capture > Take Recorder).
+      \n\nSee the documentation for more details."
     linkText:
     url:
   - heading: Solving connection issues
     text: "If you are not able to connect the apps with your Unity Editor, you might
-      need to perform some network and firewall configurations. The Startup Guide
-      gives all the instructions to help you achieve this."
-    linkText:
-    url:
+      need to perform some network and firewall configurations. The Live Capture package
+      documentation gives all the instructions to help you achieve this."
+    linkText: Connection setup
+    url: https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/connection.html
   - heading: Providing feedback
-    text: "Your feedback is essential! To address your questions, use the dedicated
-      Google Group: cinematics-beta@unity3d.com.
-      \nThe most valuable feedback format to send us is a recording of yourself using
-      the apps with voice over."
-    linkText:
-    url:
+    text: "To provide feedback and address your questions, engage with the community
+      on the Unity Forum.
+    linkText: Unity Forum
+    url: https://forum.unity.com/forums/virtual-production.466/
   - heading: The Live Capture package
     text: "For more information on the Live Capture package, the Virtual Camera app
       and the Face Capture app, see:"
-    linkText: Live Capture package documentation (beta)
-    url: http://34.95.39.199/com.unity.live-capture@0.3
+    linkText: Live Capture package documentation
+    url: https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/index.html
   loadedLayout: 1
