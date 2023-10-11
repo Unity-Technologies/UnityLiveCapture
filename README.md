@@ -41,7 +41,7 @@ Use these Unity projects to run various tests against the Live Capture package.
 | Project | Description |
 | :--- | :--- |
 | [HDRPAndURPTests](TestProjects/HDRPAndURPTests) | Runs the pipelines tests with HDRP and URP installed. |
-| [HDRPTests](TestProjects/HDRPTestsLatest) | Runs the pipelines tests with HDRP and URP installed. |
+| [HDRPTests](TestProjects/HDRPTestsLatest) | Runs the pipelines tests with HDRP installed. |
 | [HDRPWithCinemachineTests](TestProjects/HDRPWithCinemachineTests) | Runs the pipelines tests with HDRP and the Cinemachine package installed. |
 | [LiveCaptureGraphicsTestsHDRP](TestProjects/LiveCaptureGraphicsTestsHDRP) | Runs the graphics tests for Live Capture with HDRP package installed. |
 | [PkgTests](TestProjects/PkgTests) | Runs a subset of tests that are not dependent on a render pipeline (the ones in com.unity.live-capture.tests). |
@@ -75,8 +75,8 @@ Use these Unity projects to develop and deploy the Live Capture companion apps.
 
 | Project | Description |
 | :--- | :--- |
-| **[Virtual Camera Client](https://apps.apple.com/us/app/unity-virtual-camera/id1478175507)** | Unity project to develop and deploy the **Unity Virtual Camera** app. |
-| **[Face Capture Client](https://apps.apple.com/app/id1544159771)** | Unity project to develop and deploy the **Unity Face Capture** app. |
+| **[Virtual Camera Client](CompanionApps/VirtualCamera/VirtualCameraClient)** | Unity project to develop and deploy the **Unity Virtual Camera** app. |
+| **[Face Capture Client](CompanionApps/FaceCapture/FaceCaptureClient)** | Unity project to develop and deploy the **Unity Face Capture** app. |
 
 The companion app development projects use additional internal packages available in this repository:
 

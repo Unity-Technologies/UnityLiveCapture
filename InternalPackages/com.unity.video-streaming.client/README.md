@@ -1,4 +1,8 @@
-# Video Streaming Client
+# Video Streaming Client package
+
+This package is an internal package that adds support for receiving and decoding a video stream over RTSP.
+
+It is required by the companion app development projects: [Virtual Camera Client](../../CompanionApps/VirtualCamera/VirtualCameraClient) and [Face Capture Client](../../CompanionApps/FaceCapture/FaceCaptureClient).
 
 ## A Video Streaming client built using RTSP and H.264 encoding.
 

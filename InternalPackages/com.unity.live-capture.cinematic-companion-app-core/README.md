@@ -1,5 +1,5 @@
-# Touch Framework package
+# Cinematic Companion App Core package
 
-This package is an internal package used as a foundation for building touch applications using Unity's in-development Touch Framework.
+This package is the core internal package required for developing the companion apps.
 
 It is required by the companion app development projects: [Virtual Camera Client](../../CompanionApps/VirtualCamera/VirtualCameraClient) and [Face Capture Client](../../CompanionApps/FaceCapture/FaceCaptureClient).
