@@ -16,44 +16,63 @@ By making a pull request, you are confirming agreement to the terms and conditio
 
 The best way to report bugs is to use the [Unity reporting tool](https://unity.com/releases/editor/qa/bug-reporting).
 
-### Suggest enhancements
+### Engage with the community
 
-While we're not currently accepting feature requests, we're open to reviewing incoming pull requests, including those 
-that introduce new features. Your contributions will be appreciated.
+Use the [Unity Forum](https://forum.unity.com/forums/virtual-production.466/) to ask questions, send feedback and discuss with the community.
 
-### Make pull requests
+### Suggest enhancements (via pull requests)
 
-Once you have a change ready, make a pull request in GitHub.   
+We're not currently accepting feature requests. However, we're open to reviewing [incoming pull requests](#pull-request-workflow), including those that introduce new features. Your contributions will be appreciated.
 
-The pull request description should include a summary of the change and its context, a description of the fixed issues, and any other relevant information that would help the review.
-If you're fixing a bug, please include steps to reproduce, environment information, and screenshots/screencasts as relevant.
+## Pull request workflow
 
-Adding an entry in the CHANGELOG.md is not required, but is appreciated.
+### Create a branch
 
-Discussions on pull requests should be limited to the review of the content (code or documentation) changed via the pull request itself.
-
-### Get help
-
-If you need help, ask your questions and engage with the community on the [Unity Forum](https://forum.unity.com/forums/unity-live-capture.673/).
-
-## Branching workflow
-
-The `main` branch is where the development changes for the next release are. This branch
-also known as the “integration branch”.   
-Branch from `main` to implement any enhancements or documentation updates, etc. 
+Branch from `main` to implement any enhancements or documentation updates, etc.
 
 If you fix a bug, branch off the tagged version with the bug and then make sure to port the fix to `main`.
 
-We also use publish branches for each major and minor.   
-Example:
-`live-capture/4.0/release`
+Use branch naming prefix (e.g. `feature/my-new-feature`)
 
-## Changelog and versioning
+| Prefix | Meaning |
+| :--- | :--- |
+| `feature` | A new feature. |
+| `ux` | A UX addition or update. |
+| `fix` | A bug fix. |
+| `docs` | Documentation only changes. |
+| `style` | Formatting, missing semi-colons, white-space, etc. |
+| `refactor` | A code change that neither fixes a bug nor adds a feature. |
+| `perf` | A code change that improves performance. |
+| `test` | Adding missing tests. |
+| `chore` | Maintain. Changes to the build process or auxiliary tools/libraries/documentation. |
 
-All notable changes to this package should be documented in the [Changelog](Packages/com.unity.live-capture/CHANGELOG.md) file.
+>**Note:**
+>* The `main` branch is where the development changes for the next release are. This branch is also known as the "integration branch".
+>* We also use publish branches for each major and minor (example: `live-capture/4.0/release`)
+
+### Make a pull request
+
+Once you have a change ready, make a pull request in GitHub.
+
+The pull request description should typically include:
+* A summary of the change and its context,
+* A description of the fixed issues, and
+* Any other relevant information that would help the review.
+
+If you're fixing a bug, also include steps to reproduce, environment information, and screenshots/screencasts as relevant.
+
+### Manage changelog and versioning
+
+All notable changes specific to the Live Capture package should be documented in its specific [Changelog](Packages/com.unity.live-capture/CHANGELOG.md) file.
 
 The format of this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Release and App deployment
+Adding changelog entries about fixes and improvements done in the other packages and projects is not required, but will be appreciated.
 
-Package releases and Companion App deployments are done by the [Unity Live Capture team](CREDITS.md).
+### Optimize pull request discussions
+
+Discussions on pull requests should be limited to the review of the content (code or documentation) changed via the pull request itself.
+
+## Package release and app deployment
+
+Package releases and companion app deployments are done by the [Unity Live Capture team](CREDITS.md).
