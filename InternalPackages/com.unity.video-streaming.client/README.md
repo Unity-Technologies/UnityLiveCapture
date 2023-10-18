@@ -6,6 +6,8 @@ It is required by the companion app development projects: [Virtual Camera Client
 
 To contribute to the maintenance and development of this package, refer to the [Contribution and maintenance](../../CONTRIBUTING.md) page.
 
+Review the specific [license terms](LICENSE.md) about this package.
+
 ## A Video Streaming client built using RTSP and H.264 encoding.
 
 The network layer is based on [RtspClientSharp](https://github.com/BogdanovKirill/RtspClientSharp)

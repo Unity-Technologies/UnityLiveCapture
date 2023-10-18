@@ -9,6 +9,8 @@ See the [package documentation](https://docs.unity3d.com/Packages/com.unity.live
 
 To contribute to the maintenance and development of this package, refer to the [Contribution and maintenance](../../CONTRIBUTING.md) page.
 
+Review the specific [license terms](LICENSE.md) about this package.
+
 ## Architecture
 
 ![image](https://user-images.githubusercontent.com/6132575/236289177-ff7d87aa-e3e5-4f8e-ab6d-2a7488078319.png)
