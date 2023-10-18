@@ -4,6 +4,8 @@ This package is an internal package that adds support for receiving and decoding
 
 It is required by the companion app development projects: [Virtual Camera Client](../../CompanionApps/VirtualCamera/VirtualCameraClient) and [Face Capture Client](../../CompanionApps/FaceCapture/FaceCaptureClient).
 
+To contribute to the maintenance and development of this package, refer to the [Contribution and maintenance](../../CONTRIBUTING.md) page.
+
 ## A Video Streaming client built using RTSP and H.264 encoding.
 
 The network layer is based on [RtspClientSharp](https://github.com/BogdanovKirill/RtspClientSharp)

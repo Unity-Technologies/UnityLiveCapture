@@ -2,6 +2,8 @@
 
 Use this Unity project to develop and build the Unity Virtual Camera app.
 
+To contribute to the maintenance and development of this project, refer to the [Contribution and maintenance](../../../CONTRIBUTING.md) page.
+
 ## Building to device
 
 ### Development Environment
