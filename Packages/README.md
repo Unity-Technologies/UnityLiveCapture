@@ -1,6 +1,6 @@
 # Packages
 
-The Unity Live Capture main package and additional packages required by some of the [Live Capture package test projects](../TestProjects).
+The Unity Live Capture main package, plus additional packages required by some of the [Live Capture package test projects](../TestProjects).
 
 | Package | Description |
 | :--- | :--- |
