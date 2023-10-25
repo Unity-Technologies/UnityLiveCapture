@@ -63,11 +63,13 @@ If you're fixing a bug, also include steps to reproduce, environment information
 
 ### Manage changelog and versioning
 
-All notable changes specific to the Live Capture package should be documented in its specific [Changelog](Packages/com.unity.live-capture/CHANGELOG.md) file.
+All notable changes in any package or project present in this repository should be documented in a CHANGELOG.md file at the root of each corresponding package or project. If no changelog file exists yet for the package or project you modified, feel free to create one.
 
-The format of this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+>**Note:** The format of changelog files should be based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and all packages and projects adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-Adding changelog entries about fixes and improvements done in the other packages and projects is not required, but will be appreciated.
+* Any changes specific to the Live Capture package must be documented in the [Live Capture package changelog](Packages/com.unity.live-capture/CHANGELOG.md) file, as the content of this file gets published when the package is released.
+
+* Adding changelog entries about fixes and improvements done in the other packages and projects is not required, but will be appreciated.
 
 ### Optimize pull request discussions
 
