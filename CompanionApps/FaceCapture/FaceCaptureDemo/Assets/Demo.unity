@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 37.942616, g: 22.41052, b: 15.953929, a: 1}
+  m_IndirectSpecularColor: {r: 42.078716, g: 24.028305, b: 16.850224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -206,7 +206,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &221137860
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -219,10 +219,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!320 &221137861
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -2298,7 +2300,7 @@ PrefabInstance:
     - target: {fileID: 2540766814486249680, guid: bafbd01f232ed6b4fac7fae9fe2bfca4,
         type: 3}
       propertyPath: m_Name
-      value: WindupGirlRig
+      value: HeadRig
       objectReference: {fileID: 0}
     - target: {fileID: 2540766814486249683, guid: bafbd01f232ed6b4fac7fae9fe2bfca4,
         type: 3}
