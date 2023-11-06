@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6067684907686210044}
   - component: {fileID: 4837087404273348422}
   m_Layer: 0
-  m_Name: WindupGirlRig
+  m_Name: HeadRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
