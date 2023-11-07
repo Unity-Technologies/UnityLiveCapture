@@ -1,5 +1,5 @@
 # How to build Tentacle Sync plugin for iOS and macOS
- 
+
 1. Download `Tentacle.xcframework` from the vendor.
 2. Open `TentaclePlugin.xcodeproj` in Xcode.
 3. Select the `TentaclePlugin` target. Navigate to the "Build Phases" tab.
@@ -14,6 +14,3 @@
 12. Copy `TentaclePlugin.bundle` to `Packages/com.unity.live-capture/TimecodeSources/Tentacle/Plugins/OSX`.
 13. Navigate to the output directory for the archived `libTentaclePluginStatc.a` product.
 14. Copy `libTentaclePluginStatc.a` and `Tentacle.framework` to `Packages/com.unity.live-capture/TimecodeSources/Tentacle/Plugins/iOS`.
-
-## TODO
-Automate this with a script.
