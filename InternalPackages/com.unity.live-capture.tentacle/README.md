@@ -1,4 +1,4 @@
-# Tentacle package
+# Live Capture Tentacle Support package
 
 This package is an internal package that adds support for Tentacle bluetooth timecode sources to Live Capture.
 

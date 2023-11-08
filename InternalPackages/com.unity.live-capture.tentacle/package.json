@@ -1,6 +1,6 @@
 {
   "name": "com.unity.live-capture.tentacle",
-  "displayName": "Tentacle",
+  "displayName": "Live Capture Tentacle Support",
   "version": "1.0.0-pre.1",
   "unity": "2020.3",
   "description": "This package adds support for Tentacle bluetooth timecode sources to Live Capture.",
