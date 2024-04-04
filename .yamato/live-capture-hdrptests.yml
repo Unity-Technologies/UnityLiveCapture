@@ -1,6 +1,6 @@
 test_editors:
   - version: trunk
-  - version: 2022.2
+  - version: 2022.3
   
   #We need to use a more recent project with later HDRP, because materials upgrade is broken.
 ---
@@ -20,7 +20,7 @@ test_win_{{ editor.version }}_HDRPTests:
   name : Test HDRPTests {{ editor.version }} Windows
   agent:
     type: Unity::VM
-    image: package-ci/win10:stable
+    image: package-ci/win10:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
@@ -37,7 +37,7 @@ pack_HDRPTestsLatest:
   name: Pack HDRPTests Latest
   agent:
     type: Unity::VM
-    image: package-ci/ubuntu:stable
+    image: package-ci/ubuntu-20.04:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
@@ -52,7 +52,7 @@ test_linux_{{ editor.version }}_HDRPTests:
   name : Test HDRP {{ editor.version }} on Linux
   agent:
     type: Unity::VM::GPU
-    image: package-ci/ubuntu-20:v1.4.3-1123541
+    image: package-ci/ubuntu-20.04:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
@@ -70,7 +70,7 @@ test_macmetal_{{ editor.version }}_HDRPTests:
   name : Test HDRPTests {{ editor.version }} MacMetal
   agent:
     type: Unity::metal::macmini
-    image: package-ci/macos-12:v0.0.1-1084810
+    image: package-ci/macos-12:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm

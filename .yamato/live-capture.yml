@@ -1,5 +1,5 @@
 test_editors:
-  - version: 2022.2
+  - version: 2022.3
   - version: trunk
 multiplatform_test_projects:
     - info:
@@ -36,7 +36,7 @@ live_capture_packages:
 linux_distros:
   - name: ubuntu20
     type: Unity::VM::GPU
-    image: package-ci/ubuntu-20:v1.4.3-1123541
+    image: package-ci/ubuntu-20.04:v4
     flavor: b1.large
 ---
 test_package_pr:
@@ -71,7 +71,7 @@ api_doc_validation:
   name: API documentation validation
   agent:
     type: Unity::VM
-    image: package-ci/ubuntu:stable
+    image: package-ci/ubuntu-20.04:v4
     flavor: b1.medium
   commands:
     # Needed for now, until we get a recent upm-pvp into the image.
@@ -98,7 +98,7 @@ test_win_{{ editor.version }}_{{ project.info[1].name }}:
   name : Test {{ project.info[1].name }} {{ editor.version }} Windows
   agent:
     type: Unity::VM
-    image: package-ci/win10:stable
+    image: package-ci/win10:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm    
@@ -120,7 +120,7 @@ nightly_tests:
   name: Nightly Tests
   agent:
     type: Unity::VM
-    image: package-ci/ubuntu:stable
+    image: package-ci/ubuntu-20.04:v4
     flavor: b1.large
   triggers:
     recurring:
@@ -150,7 +150,7 @@ pack_{{ project.info[1].name }}:
   name: Pack {{ project.info[1].name }}
   agent:
     type: Unity::VM
-    image: package-ci/ubuntu:stable
+    image: package-ci/ubuntu-20.04:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
@@ -188,7 +188,7 @@ test_virtualmac_2022.2_VirtualCameraClient:
   name : Test VirtualCameraClient On 2022.2 VirtualMac
   agent:
     type: Unity::VM::osx
-    image: package-ci/mac:stable
+    image: package-ci/macos-12:v4
     flavor: m1.mac
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
@@ -206,7 +206,7 @@ test_macmetal_{{ editor.version }}_{{ project.info[1].name }}:
   name : Test {{ project.info[1].name }} {{ editor.version }} MacMetal
   agent:
     type: Unity::metal::macmini
-    image: package-ci/macos-12:v0.0.1-1084810
+    image: package-ci/macos-12:v4
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
