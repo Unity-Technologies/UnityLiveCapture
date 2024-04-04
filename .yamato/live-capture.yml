@@ -126,6 +126,7 @@ nightly_tests:
     recurring:
       - branch: main
         frequency: daily
+        rerun: always
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
     - upm-ci package izon -t
