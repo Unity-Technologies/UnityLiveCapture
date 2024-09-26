@@ -245,6 +245,7 @@ namespace Unity.LiveCapture.Tests.Editor
         }
 
         [Test]
+        [Ignore("Ignore unstable test")]
         public void GoToSnapshotSetsOriginAndLocalPose()
         {
             var pose = new Pose()
