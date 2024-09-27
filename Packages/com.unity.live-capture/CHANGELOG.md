@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [4.0.1] - 2024-09-26
 
+### Changed
+- Prepared the package for end of support as of Unity 6.1.
+
 ## [4.0.0] - 2023-07-18
 
 ### Changed
