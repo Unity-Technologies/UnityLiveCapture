@@ -245,7 +245,7 @@ namespace Unity.LiveCapture.Tests.Editor
         }
 
         [Test]
-        [Ignore("Ignore unstable test")]
+        [Ignore("Disabled for UUM-48738, will be fixed in LC-1644")]
         public void GoToSnapshotSetsOriginAndLocalPose()
         {
             var pose = new Pose()
@@ -272,6 +272,11 @@ namespace Unity.LiveCapture.Tests.Editor
             };
 
             m_Device.GoToSnapshot(snapshot);
+
+            // TODO: Update/fix and enable the local pose test
+            // Currently, this test does not pass because the of localPose so it has been disabled. 
+            // The quaternions are not equal to each other, even though they appear to be the same value.
+            // When printing these values to console, the difference between the mismatched values is very small(10^-9 or 10^-10)
 
             Assert.AreEqual(origin, m_Device.Origin, "Incorrect pose in origin");
             Assert.AreEqual(localPose, m_Device.LocalPose, "Incorrect local pose in origin");
