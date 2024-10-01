@@ -1,5 +1,7 @@
 # Recording and playback
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Record and play back takes from the Unity Editor for any connected Client Devices.
 
 >**Important:** Before you start, you must

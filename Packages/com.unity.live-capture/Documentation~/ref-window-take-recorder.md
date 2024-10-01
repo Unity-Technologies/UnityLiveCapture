@@ -1,5 +1,7 @@
 # Take Recorder
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the Take Recorder window to:
 
 * [Manage your connected Capture Devices and select the data to record](#capture-devices)

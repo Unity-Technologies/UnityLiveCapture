@@ -1,5 +1,7 @@
 # Installation
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To install the Live Capture package, follow the instructions in the [Package Manager documentation](https://docs.unity3d.com/Manual/upm-ui-install.html).
 
 ## Installation requirements

@@ -1,5 +1,7 @@
 # Virtual Camera settings
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To access the app settings, tap the **Settings** ![Settings icon](images/virtual-camera-information-bar-settings.png) icon in the Information bar at the top left of the screen.
 
 ![](images/virtual-camera-settings.png)

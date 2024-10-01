@@ -1,5 +1,7 @@
 # Take recording
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Record the live data captured from connected Client Devices in the form of animations. Manage the recordings as Shots with multiple Takes you can play back, reuse and iterate on.
 
 | Section | Description |

@@ -1,5 +1,7 @@
 # Timed Data Source Details window
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the Timed Data Source Details window to manage synchronized data sources.
 
 To open this window, from the Unity Editor main menu, select **Window** > **Live Capture** > **Timed Data Source Details**.

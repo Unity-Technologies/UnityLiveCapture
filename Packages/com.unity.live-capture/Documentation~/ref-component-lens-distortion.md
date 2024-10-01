@@ -1,5 +1,7 @@
 # Lens Distortion Brown Conrady
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The Lens Distortion Brown Conrady component uses the Brown-Conrady distortion model to simulate the distortion of a physical lens. It is only available in HDRP.
 
 ![Lens Distortion Brown Conrady Controls](images/ref-component-lens-distortion-brown-conrady.png)

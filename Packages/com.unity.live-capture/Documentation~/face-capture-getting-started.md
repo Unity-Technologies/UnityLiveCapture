@@ -1,5 +1,7 @@
 # Get started with Face Capture
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Install, connect and set up all elements to animate a sample character head within Unity from the Face Capture app.
 
 ## Installation

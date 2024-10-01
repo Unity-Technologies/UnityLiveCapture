@@ -1,5 +1,7 @@
 # Getting started with timecode synchronization
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 This page gives the instructions to add a Timecode Synchronizer to a pre-configured Live Capture environment in order to get a perfect synchronization of your connected data source outputs.
 
 ## Scenario assumptions and requirements

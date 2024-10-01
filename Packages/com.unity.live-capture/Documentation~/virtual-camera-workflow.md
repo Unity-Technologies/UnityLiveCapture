@@ -1,5 +1,7 @@
 # Virtual Camera workflows
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ## Camera initial position
 
 Position and orient the camera actor in the scene to configure the starting position and rotation (only accounts for y-rotation) of the virtual camera.

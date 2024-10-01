@@ -1,5 +1,7 @@
 # Virtual camera lenses
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ### Lens controls
 
 The current focal length (zoom), focus distance, and aperture (f-number) is controlled from [Virtual Camera Device](ref-component-virtual-camera-device.md) and the Virtual Camera app.

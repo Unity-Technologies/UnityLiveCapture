@@ -1,4 +1,6 @@
-## Unity Editor settings for Face Capture
+# Unity Editor settings for Face Capture
+
+[!INCLUDE [banner-message](banner-message.md)]
 
 Get the description of all Unity Editor functional elements related to Face Capture.
 

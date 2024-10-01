@@ -1,4 +1,6 @@
-## Unity Editor settings for Virtual Camera
+# Unity Editor settings for Virtual Camera
+
+[!INCLUDE [banner-message](banner-message.md)]
 
 Get the description of all Unity Editor functional elements related to Virtual Camera data capture.
 

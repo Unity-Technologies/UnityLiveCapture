@@ -1,5 +1,7 @@
 # Unity Face Capture features
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ## Preview, recording, and playback
 
 * See a live preview of the performance in the Unity Editor.

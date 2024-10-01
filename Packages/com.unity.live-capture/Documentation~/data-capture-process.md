@@ -1,5 +1,7 @@
 # Data capture process
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The main purpose of the Live Capture package is to:
 * Capture real-time data from external physical devices having real world tracking capabilities.
 * Interpret the captured data in the Unity Editor and apply it to specific GameObjects of the Scene.

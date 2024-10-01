@@ -1,5 +1,7 @@
 # Frame Lines component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The Frame Lines component allows you to:
 * Render masks and markers in Game view to represent the camera sensor size and target format aspect ratio.
 * Adjust the Game view relative to the sensor size.

@@ -1,5 +1,7 @@
 # Synchronization window
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the Synchronization window to manage timecode synchronizers and monitor the genlock status.
 
 To open this window, from the Unity Editor main menu, select **Window** > **Live Capture** > **Synchronization**.

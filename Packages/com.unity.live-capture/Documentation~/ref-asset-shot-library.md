@@ -1,5 +1,7 @@
 # Shot Library
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 A Shot Library is an asset that stores shot definitions.
 
 Use Shot Libraries to preconfigure sets of shots to use with the [Shot Player](ref-component-shot-player.md). This enables the automatic use of preconfigured properties when recording new takes.

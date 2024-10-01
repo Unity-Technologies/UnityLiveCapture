@@ -1,5 +1,7 @@
 # Face Capture app interface reference
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ![Face Capture app main interface](images/face-capture-app-ui-main.png)
 
 |  | Name | Description |

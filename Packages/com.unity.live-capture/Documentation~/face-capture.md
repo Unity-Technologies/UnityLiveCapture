@@ -1,5 +1,7 @@
 # Unity Face Capture
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the Unity Face Capture mobile app alongside the Unity Editor to animate and record facial expressions and head angle.
 
 > **Important:** The Unity Face Capture app is a companion app, which means it requires the Unity Editor to function, as opposed to a standalone app.

@@ -1,5 +1,7 @@
 # Known issues and limitations
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ## Feature limitations
 
 * Cinemachine does not support physical camera settings when using URP.

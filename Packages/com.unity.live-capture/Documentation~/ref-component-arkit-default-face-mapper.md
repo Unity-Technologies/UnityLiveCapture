@@ -1,5 +1,7 @@
 # Default Face Mapper
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 See also [Mapping Evaluator](face-capture-mapping-evaluator.md).
 
 ## Setting up a character

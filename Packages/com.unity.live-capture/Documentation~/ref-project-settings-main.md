@@ -1,5 +1,7 @@
 # Project Settings: Live Capture
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To access the Live Capture Project Settings, from the Unity Editor main menu, select **Edit > Project Settings**, and then select **Live Capture**.
 
 ![](images/ref-window-project-settings-main.png)

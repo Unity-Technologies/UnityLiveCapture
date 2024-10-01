@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 #### I can't get the app to connect to the Unity Editor
 <br />
 

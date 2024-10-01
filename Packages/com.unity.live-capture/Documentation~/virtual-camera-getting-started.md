@@ -1,5 +1,7 @@
 # Get started with the Virtual Camera
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Install, connect and set up all elements to drive a Unity camera from the Virtual Camera app.
 
 >**Note:** To get visible results from this setup, use a Scene that includes enough elements to look at through the camera.

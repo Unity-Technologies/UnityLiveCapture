@@ -1,5 +1,7 @@
 # Sensor Presets
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Sensor Presets provide an easy way to define new presets for camera sensor sizes to use with a [Virtual Camera Device](ref-component-virtual-camera-device.md).
 
 ![](images/ref-asset-sensor-presets.png)

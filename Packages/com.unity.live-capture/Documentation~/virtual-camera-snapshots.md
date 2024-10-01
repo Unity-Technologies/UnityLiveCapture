@@ -1,5 +1,7 @@
 # Using Virtual Camera Snapshots
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use Snapshots to capture the current state of your Virtual Camera and reuse it later.
 
 The information stored in a Snapshot includes the current camera position, rotation, and other metadata such as the physical camera properties and Timeline clip information, when available. It also includes a screenshot of the current camera view for visual reference.

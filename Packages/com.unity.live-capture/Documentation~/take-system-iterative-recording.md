@@ -1,5 +1,7 @@
 # Iterative recording
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Iterative recording consists in recording layered takes over several iterations. Each iteration is a duplicate of the take set as iteration base, where Animation Track overrides are added to the base tracks.
 
 For example, when using the Virtual Camera, you may want to capture just the position and rotation of the camera, and do focus pulling in a separate take to tune the Depth of Field.

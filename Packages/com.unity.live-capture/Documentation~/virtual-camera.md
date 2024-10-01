@@ -1,5 +1,7 @@
 # Unity Virtual Camera
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the Unity Virtual Camera mobile app alongside the Unity Editor to drive a Unity camera from your iPad or iPhone and record camera movement, rotation, focus, zoom, and more to achieve a handheld look-and-feel.
 
 > **Important:** The Unity Virtual Camera app is a companion app, which means it requires the Unity Editor to function, as opposed to a standalone app.

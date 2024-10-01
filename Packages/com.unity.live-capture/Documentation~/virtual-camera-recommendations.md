@@ -1,5 +1,7 @@
 # Tips and Recommendations
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ## Tracking tips
 
 * AR camera tracking involves image analysis, which requires a clear image. Patterned surfaces are best.

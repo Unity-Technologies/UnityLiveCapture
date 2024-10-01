@@ -1,5 +1,7 @@
 # Connection setup
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Set up your network and manage [Connections](data-capture-process.md#connection) between [Client Devices](data-capture-process.md#client-device) and the Unity Editor.
 
 | Section | Description |
