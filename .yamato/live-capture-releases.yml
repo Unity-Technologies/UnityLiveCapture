@@ -16,7 +16,6 @@ publish_dryrun:
   dependencies:
     - .yamato/live-capture.yml#pack_PkgTests
     - .yamato/live-capture.yml#test_win_2022.2_PkgTests
-    - .yamato/live-capture.yml#test_win_2022.3_PkgTests
     - .yamato/live-capture.yml#test_win_trunk_PkgTests
 
 publish:
@@ -37,7 +36,6 @@ publish:
   dependencies:
     - .yamato/live-capture.yml#pack_PkgTests
     - .yamato/live-capture.yml#test_win_2022.2_PkgTests
-    - .yamato/live-capture.yml#test_win_2022.3_PkgTests
     - .yamato/live-capture.yml#test_win_trunk_PkgTests
 
 tests_for_promotion:
