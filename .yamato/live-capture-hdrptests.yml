@@ -1,6 +1,7 @@
 test_editors:
   - version: trunk
   - version: 2022.3
+  - version: 2022.2
   
   #We need to use a more recent project with later HDRP, because materials upgrade is broken.
 ---

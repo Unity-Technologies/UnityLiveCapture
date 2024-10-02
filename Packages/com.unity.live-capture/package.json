@@ -1,7 +1,7 @@
 {
   "name": "com.unity.live-capture",
   "displayName": "Live Capture",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "unity": "2022.2",
   "unityRelease": "17f1",
   "description": "Capture data from physical devices to animate characters and cameras in real time within the Editor. Record the animations in the form of takes and iterate on the recordings. Genlock and synchronize devices for frame and timecode accuracy.",
@@ -27,6 +27,6 @@
     }
   ],
   "relatedPackages": {
-    "com.unity.live-capture.tests": "4.0.0"
+    "com.unity.live-capture.tests": "4.0.1"
   }
 }

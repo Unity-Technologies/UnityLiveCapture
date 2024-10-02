@@ -202,6 +202,7 @@ namespace Unity.LiveCapture.Tests.Editor
         /// properly cleans up the old connection when it accepts the new connection.
         /// </summary>
         [UnityTest]
+        [Ignore("Disabled for Instability https://jira.unity3d.com/browse/LC-1650")]
         public IEnumerator TestReconnect()
         {
             var server = new NetworkServer();
@@ -333,6 +334,7 @@ namespace Unity.LiveCapture.Tests.Editor
         }
 
         [UnityTest]
+        [Ignore("Disabled for Instability https://jira.unity3d.com/browse/LC-1650")]
         public IEnumerator TestMessageHandlerRegistration()
         {
             var server = new NetworkServer();

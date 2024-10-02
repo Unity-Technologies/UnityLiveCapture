@@ -1,3 +1,24 @@
+publish_dryrun:
+  name: Publish packages to Staging Registry (Dry Run)
+  agent:
+    type: Unity::VM
+    image: package-ci/win10:v4
+    flavor: b1.large
+  commands:
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
+    - upm-ci project publish --project-path TestProjects/PkgTests --dry-run
+  variables:
+    UPMCI_ENABLE_PACKAGE_SIGNING: 1
+  artifacts:
+    artifacts:
+      paths:
+        - "upm-ci~/packages/*.tgz"
+  dependencies:
+    - .yamato/live-capture.yml#pack_PkgTests
+    - .yamato/live-capture.yml#test_win_2022.2_PkgTests
+    - .yamato/live-capture.yml#test_win_2022.3_PkgTests
+    - .yamato/live-capture.yml#test_win_trunk_PkgTests
+
 publish:
   name: Publish packages to Staging Registry
   agent:
@@ -6,14 +27,9 @@ publish:
     flavor: b1.large
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
-    - IF %IS_DRY_RUN% == 1 (upm-ci project publish --project-path TestProjects/PkgTests --dry-run) ELSE (upm-ci project publish --project-path TestProjects/PkgTests)
+    - upm-ci project publish --project-path TestProjects/PkgTests
   variables:
-    IS_DRY_RUN: 0
     UPMCI_ENABLE_PACKAGE_SIGNING: 1
-  triggers:
-    branches:
-      only:
-        - /publish/[\d.]+/release/
   artifacts:
     artifacts:
       paths:
@@ -21,6 +37,8 @@ publish:
   dependencies:
     - .yamato/live-capture.yml#pack_PkgTests
     - .yamato/live-capture.yml#test_win_2022.2_PkgTests
+    - .yamato/live-capture.yml#test_win_2022.3_PkgTests
+    - .yamato/live-capture.yml#test_win_trunk_PkgTests
 
 tests_for_promotion:
   name: Run tests for promotion

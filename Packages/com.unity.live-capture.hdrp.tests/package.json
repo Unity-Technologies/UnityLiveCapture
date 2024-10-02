@@ -9,7 +9,7 @@
   ],
   "category": "Live Capture",
   "dependencies": {
-    "com.unity.live-capture": "4.0.0"
+    "com.unity.live-capture": "4.0.1"
   },
   "type": "tests"
 }

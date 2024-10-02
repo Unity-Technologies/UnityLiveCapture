@@ -1,7 +1,7 @@
 {
   "name": "com.unity.live-capture.tests",
   "displayName": "Live Capture Tests",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "unity": "2021.3",
   "description": "Live Capture test package.",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "category": "Live Capture",
   "dependencies": {
-    "com.unity.live-capture": "4.0.0"
+    "com.unity.live-capture": "4.0.1"
   },
   "type": "tests"
 }
