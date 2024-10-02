@@ -1,5 +1,7 @@
 # Project Settings: Snapshots
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To access the Snapshots section of the Project Settings, from the Unity Editor main menu, select **Edit > Project Settings**, and then select **Live Capture > Virtual Camera > Snaphots**.
 
 ![](images/ref-window-project-settings-snapshots.png)

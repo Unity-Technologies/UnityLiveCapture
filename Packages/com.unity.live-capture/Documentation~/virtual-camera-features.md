@@ -1,5 +1,7 @@
 # Unity Virtual Camera features
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ## Preview, recording, and playback
 
 * Live preview via **video streaming** between the Unity Editor and the mobile app.

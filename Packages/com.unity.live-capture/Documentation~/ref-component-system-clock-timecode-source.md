@@ -1,5 +1,7 @@
 # System Clock Timecode Source component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Add this component along with the [Timecode Synchronizer component](ref-component-timecode-synchronizer.md) to use the system clock as the timecode source.
 
 **Note:** This component might provide inaccurate results if you use it to synchronize data sources. Therefore, you should only use it for testing purposes, or to simply get a timecode reference in your Game view without connecting external devices.

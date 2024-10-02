@@ -1,5 +1,7 @@
 # Face Capture settings
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To access the app settings, tap the gear icon at the top left of the screen.
 
 ![](images/face-capture-settings.png)

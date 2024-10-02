@@ -1,5 +1,7 @@
 # Virtual Camera motion/reset menu
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the menu at the left of the app main screen to reset or reposition the camera, or to adjust the camera motion controls and behaviors.
 
 ![](images/virtual-camera-app-ui-motion.png)

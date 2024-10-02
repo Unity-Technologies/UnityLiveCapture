@@ -1,5 +1,7 @@
 # Tips and Recommendations
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ## Tracking tips
 
 Tracking works best when the relative position of the head and device is fixed, as in the following scenarios:

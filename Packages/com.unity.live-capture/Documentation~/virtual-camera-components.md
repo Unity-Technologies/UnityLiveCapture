@@ -1,5 +1,7 @@
 # Unity Virtual Camera components
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 All Unity Editor components available for Unity Virtual Camera integration and features:
 
 * [Cinemachine Camera Driver](ref-component-cinemachine-camera-driver.md)

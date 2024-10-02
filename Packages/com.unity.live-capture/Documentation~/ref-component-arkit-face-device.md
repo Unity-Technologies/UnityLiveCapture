@@ -1,5 +1,7 @@
 # ARKit Face Device component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The ARKit Face Device is a Live Capture Device that records and applies, in real time, face properties from a connected Client Device to an [ARKit Face Actor](ref-component-arkit-face-actor.md).
 
 The ARKit Face Device communicates with a specific connected Client Device (Companion App installed on a physical mobile device) in order to retrieve the face properties.

@@ -1,5 +1,7 @@
 # Connect a Client Device to the Editor
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Enable network connection between a [Client Device](data-capture-process.md#client-device) and the Unity Editor.
 
 ## Create a Connection

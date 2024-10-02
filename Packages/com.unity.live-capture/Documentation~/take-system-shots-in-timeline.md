@@ -1,5 +1,7 @@
 # Manage Shots in Timeline
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use [Timeline](https://docs.unity3d.com/Packages/com.unity.timeline@latest) to prepare Shots and record Takes in a cinematic context.
 
 **Note:** These scenarios assume you already have a GameObject with a Timeline associated to it.

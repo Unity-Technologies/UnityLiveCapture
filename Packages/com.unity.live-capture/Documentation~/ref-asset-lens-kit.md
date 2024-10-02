@@ -1,5 +1,7 @@
 # Lens Kit
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Lens kits are a convenient way to preconfigure sets of lens presets to use with the [Virtual Camera Device](ref-component-virtual-camera-device.md).
 
 ![](images/ref-asset-lens-kit.png)

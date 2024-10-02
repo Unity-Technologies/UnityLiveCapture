@@ -1,5 +1,7 @@
 # Set up an Actor
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Set up a GameObject of the Scene as an [Actor](data-capture-process.md#actor) to be able to drive it from a connected [Client Device](data-capture-process.md#client-device) through a [Capture Device](data-capture-process.md#capture-device).
 
 ## Each Actor is different

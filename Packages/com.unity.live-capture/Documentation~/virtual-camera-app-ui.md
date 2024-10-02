@@ -1,5 +1,7 @@
 # Virtual Camera app interface reference
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 ![Virtual Camera app main interface](images/virtual-camera-app-ui-main.png)
 
 |  | **Name** | **Description** |

@@ -1,5 +1,7 @@
 # Create and set up a Capture Device
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Create a [Capture Device](data-capture-process.md#capture-device) to map a connected [Client Device](data-capture-process.md#client-device) to an [Actor](data-capture-process.md#actor) of the Scene.
 
 ## Requirements

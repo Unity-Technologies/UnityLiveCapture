@@ -1,5 +1,7 @@
 # Set up your network and firewall
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To enable a proper connection between the [Client Devices](data-capture-process.md#client-device) and the Unity Editor:
 
 * Make sure the devices and Unity Editor workstation have access to the **same network**.

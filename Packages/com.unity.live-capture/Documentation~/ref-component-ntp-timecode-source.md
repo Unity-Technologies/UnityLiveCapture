@@ -1,5 +1,7 @@
 # NTP Timecode Source component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Add this component along with the [Timecode Synchronizer component](ref-component-timecode-synchronizer.md) to use a Network Time Protocol (NTP) server as the timecode source.
 
 ![](images/ref-component-ntp-timecode-source.png)

@@ -1,5 +1,7 @@
 # Manage Shots in a Shot Library
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use a [Shot Library](ref-asset-shot-library.md) to prepare and manage your shots when you don't necessarily have a Timeline for cinematic context.
 
 ## Create a functional Shot Library

@@ -1,5 +1,7 @@
 # Capture Device and Actor setup
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use [Capture Devices](data-capture-process.md#capture-device) in the Unity Editor to:
 * Map connected [Client Devices](data-capture-process.md#client-device) with [Actors](data-capture-process.md#actor) to drive in the Scene.
 * Control data streaming between specific Client Device/Actor pairs according to the data you need to record.

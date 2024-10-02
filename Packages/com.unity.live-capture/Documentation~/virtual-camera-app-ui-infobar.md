@@ -1,5 +1,7 @@
 # Virtual Camera information bar
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The information bar displays recording/playback indicators about the current take, along with the current values of the main camera properties. It also includes icons to access the app settings and a help mode.
 
 ![Information bar - left](images/virtual-camera-information-bar-left.png) • • •

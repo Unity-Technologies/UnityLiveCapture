@@ -1,5 +1,7 @@
 # Virtual Camera lens menu and controls
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Use the menu at the right of the app main screen to control the camera lens.
 
 ![](images/virtual-camera-app-ui-lens.png)

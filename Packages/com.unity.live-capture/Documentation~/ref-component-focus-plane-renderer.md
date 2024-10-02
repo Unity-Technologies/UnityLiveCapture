@@ -1,5 +1,7 @@
 # Focus Plane Renderer component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The Focus Plane component allows you to render a visualization of the focus plane (that is, the plane facing the camera whose distance to it corresponds to the focus distance). For example, you might need to visualize how the focus distance behaves depending on the current focus mode.
 
 ![Focus Plane Controls](images/ref-component-focus-plane-renderer.png)

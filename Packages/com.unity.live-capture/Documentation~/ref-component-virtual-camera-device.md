@@ -1,5 +1,7 @@
 # Virtual Camera Device component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The Virtual Camera Device is a Live Capture Device that records and applies, in real time, camera properties from a connected Client Device to a [Virtual Camera Actor](ref-component-virtual-camera-actor.md).
 
 The Virtual Camera Device communicates with a specific connected Client Device (Virtual Camera app installed on a physical mobile device) in order to retrieve the camera properties. At the same time, the Virtual Camera Device emits a low latency video stream, rendering the driven camera in the Virtual Camera app.

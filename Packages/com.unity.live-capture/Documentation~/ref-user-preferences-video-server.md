@@ -1,5 +1,7 @@
 # User Preferences: Video Server
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 To access the Live Capture Preferences, from the Unity Editor main menu, select **Edit > Preferences**, and then in the Preferences window, select **Live Capture**.
 
 ![](images/ref-window-preferences.png)

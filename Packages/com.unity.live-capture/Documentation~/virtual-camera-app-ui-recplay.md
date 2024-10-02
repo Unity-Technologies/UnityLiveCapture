@@ -1,5 +1,7 @@
 # Virtual Camera recording/playback controls
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The Virtual Camera app works in two different modes, which display different interface controls.
 
 | Mode | Purpose |

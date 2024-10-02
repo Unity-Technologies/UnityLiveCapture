@@ -1,5 +1,7 @@
 # Aspect Ratio Presets
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 A pre-configured set of aspect ratios.
 
 ![](images/ref-asset-aspect-ratio-presets.png)

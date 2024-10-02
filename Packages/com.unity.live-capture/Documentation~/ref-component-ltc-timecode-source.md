@@ -1,5 +1,7 @@
 # LTC Timecode Source component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 Add this component along with the [Timecode Synchronizer component](ref-component-timecode-synchronizer.md) to use a Linear timecode (LTC) audio signal as the timecode source.
 
 To enable the Timecode Synchronizer to get a timecode from this component, you must connect an LTC-capable audio source to your Unity workstation.

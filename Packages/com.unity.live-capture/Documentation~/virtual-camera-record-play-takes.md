@@ -1,5 +1,7 @@
 # Record and play takes from the Virtual Camera app
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 >**Important:** Before you start, you must [set up the Take System](take-system.md) and [connect the Virtual Camera app](connection-device.md).
 
 ## Record a take

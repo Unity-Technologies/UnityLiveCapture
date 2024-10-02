@@ -1,5 +1,7 @@
 # Timecode synchronization
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The Live Capture package includes features that allow you to temporally synchronize all compatible Live Capture devices connected to Unity according to a centralized timecode source.
 
 ## Main use cases

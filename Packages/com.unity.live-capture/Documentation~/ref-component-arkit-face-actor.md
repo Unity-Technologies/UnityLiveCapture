@@ -1,5 +1,7 @@
 # ARKit Face Actor component
 
+[!INCLUDE [banner-message](banner-message.md)]
+
 The ARKit Face Actor is a component that stores face properties. These properties are animated through animation clips, or through the [ARKit Face Device](ref-component-arkit-face-device.md) when the Take Recorder is in Live mode.
 
 ![](images/ref-component-arkit-face-actor.png)
