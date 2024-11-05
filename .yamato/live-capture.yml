@@ -1,6 +1,7 @@
 test_editors:
   - version: 2022.2
   - version: 2022.3
+  - version: 6000.0
   - version: trunk
 multiplatform_test_projects:
     - info:
@@ -115,10 +116,10 @@ test_win_{{ editor.version }}_{{ project.info[1].name }}:
 
 # EndRegion Tests for PRs
 
-# Region Nightly tests and publishing
+# Region Weekly tests and publishing
 
-nightly_tests:
-  name: Nightly Tests
+weekly_tests:
+  name: Weekly Tests
   agent:
     type: Unity::VM
     image: package-ci/ubuntu-20.04:v4
@@ -126,7 +127,7 @@ nightly_tests:
   triggers:
     recurring:
       - branch: main
-        frequency: daily
+        frequency: weekly
         rerun: always
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
