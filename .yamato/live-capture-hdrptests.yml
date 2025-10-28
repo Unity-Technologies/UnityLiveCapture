@@ -3,7 +3,7 @@ test_editors:
   - version: 6000.0
   - version: 2022.3
   - version: 2022.2
-  
+
   #We need to use a more recent project with later HDRP, because materials upgrade is broken.
 ---
 
@@ -34,7 +34,7 @@ test_win_{{ editor.version }}_HDRPTests:
   dependencies:
     - .yamato/live-capture-hdrptests.yml#pack_HDRPTestsLatest
 {% endfor %}
- 
+
 pack_HDRPTestsLatest:
   name: Pack HDRPTests Latest
   agent:
@@ -74,6 +74,7 @@ test_macmetal_{{ editor.version }}_HDRPTests:
     type: Unity::metal::macmini
     image: package-ci/macos-12:v4
     flavor: b1.large
+    model: 2018-i3-macos11
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
 
