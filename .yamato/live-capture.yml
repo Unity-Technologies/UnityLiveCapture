@@ -9,7 +9,7 @@ multiplatform_test_projects:
         - name : PkgTests
     - info:
         - path : TestProjects/URPTests
-        - name : URPTests    
+        - name : URPTests
    # Because of a material upgrade issues in 2022+, we have a separate logic for HDRP
    # - info:
    #     - path : TestProjects/HDRPTests
@@ -28,7 +28,7 @@ multiplatform_test_projects_no_HDRP:
         - name : PkgTests
     - info:
         - path : TestProjects/URPTests
-        - name : URPTests    
+        - name : URPTests
 
 live_capture_packages:
     - path : Packages/com.unity.live-capture
@@ -50,14 +50,14 @@ test_package_pr:
         pull_request.push.changes.any match "TestProjects/HDRPTestsLatest/**" OR (push.changes.any match "TestProjects/HDRPTestsLatest/**" AND push.branch eq "main")
   dependencies:
     {% for project in multiplatform_test_projects %}
-     - .yamato/live-capture.yml#test_win_{{ test_editors.first.version }}_{{ project.info[1].name }}     
+     - .yamato/live-capture.yml#test_win_{{ test_editors.first.version }}_{{ project.info[1].name }}
     {% endfor %}
       # Run HDRPTests in 2021-migrated project
      - .yamato/live-capture-hdrptests.yml#test_win_{{ test_editors.first.version }}_HDRPTests
      - .yamato/live-capture.yml#api_doc_validation
      # Builds the apps
      - .yamato/live-capture.yml#test_virtualmac_2022.2_VirtualCameraClient
-     
+
 test_client_pr:
   name: Run tests after client changes
   triggers:
@@ -103,7 +103,7 @@ test_win_{{ editor.version }}_{{ project.info[1].name }}:
     image: package-ci/win10:v4
     flavor: b1.large
   commands:
-    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm    
+    - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
     - upm-ci project pack --project-path {{ project.info[0].path }}
     # We run all isolation tests and package tests only for one project, not to be redundant.
     - upm-ci project test -u {{ editor.version }} --project-path {{ project.info[0].path }} {% if  project.info[0].path != "TestProjects/PkgTests" -%} --type=project-tests {% endif %}  --extra-create-project-arg="-upmNoDefaultPackages"
@@ -143,10 +143,10 @@ weekly_tests:
     # LC-1603 - HDRP tests are too heavy to run on MacOS and cause timeouts
     {% for project in multiplatform_test_projects_no_HDRP %}
      - .yamato/live-capture.yml#test_macmetal_{{ editor.version }}_{{ project.info[1].name }}
-    {% endfor %} 
+    {% endfor %}
     {% endfor %}
      - .yamato/live-capture.yml#test_virtualmac_2022.2_VirtualCameraClient
-     - .yamato/live-capture-hdrptests.yml#test_hdrp_allplatforms 
+     - .yamato/live-capture-hdrptests.yml#test_hdrp_allplatforms
 
 {% for project in multiplatform_test_projects %}
 pack_{{ project.info[1].name }}:
@@ -163,7 +163,7 @@ pack_{{ project.info[1].name }}:
       paths:
         - "upm-ci~/packages/**/*"
  {% endfor %}
- 
+
 {% for editor in test_editors %}
 {% for project in multiplatform_test_projects %}
 {% for distro in linux_distros -%}
@@ -211,6 +211,7 @@ test_macmetal_{{ editor.version }}_{{ project.info[1].name }}:
     type: Unity::metal::macmini
     image: package-ci/macos-12:v4
     flavor: b1.large
+    model: 2018-i3-macos11
   commands:
     - npm install upm-ci-utils@stable -g --registry https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-npm
     - upm-ci project test -u {{ editor.version }} --project-path  {{ project.info[0].path }} --type=project-tests --extra-create-project-arg="-upmNoDefaultPackages"
